@@ -1,0 +1,94 @@
+{
+  "file": "results\\seeded\\perpendicular_tight_x-8_y8.5\\input.npz",
+  "history": [
+    {
+      "round": 1,
+      "status": "Solve_Succeeded",
+      "iterations": 35,
+      "objective": 11.969381926047289,
+      "solve_seconds": 1.752883699999984,
+      "validation_seconds": 0.24933009999949718,
+      "distance_queries": 824,
+      "structure": {
+        "configuration_nodes": 51,
+        "interior_pose_constraints": 0,
+        "obstacle_pairs": 153,
+        "decision_variables": 1528,
+        "constraints": 2346
+      },
+      "samples": [],
+      "validation": {
+        "accepted": false,
+        "node_pass": true,
+        "dynamics_pass": true,
+        "terminal_pass": true,
+        "acceptance_version": "whole_body_arc_zero_terminal_v2",
+        "checks": {
+          "start": true,
+          "dynamics_residual": true,
+          "rollout_position": true,
+          "rollout_heading": true,
+          "controls": true,
+          "reference_bounds": true,
+          "goal_position": true,
+          "goal_heading": true,
+          "terminal_speed": true,
+          "whole_trajectory": false
+        },
+        "failure_items": [
+          "whole_trajectory"
+        ],
+        "saved_node_min": 0.051000003760829804,
+        "global_node_min": 0.05100000376081559,
+        "endpoint_residual_max": 1.5765166949677223e-14,
+        "global_position_drift_m": 4.808084162033901e-14,
+        "global_heading_drift_rad": 1.687538997430238e-14,
+        "start_residual_max": 2.0757919226416757e-33,
+        "terminal_component_errors": [
+          0.04979999867238419,
+          0.04979999930885359,
+          0.04997999818166887
+        ],
+        "terminal_speed": 0.0,
+        "control_extrema": {
+          "speed": 1.2752384590996162,
+          "accel": 0.9348627453095599,
+          "steering": 0.5995962862396781,
+          "steering_delta": 0.23999999869497998
+        },
+        "reference_bounds_pass": true,
+        "curve": {
+          "state": "COLLISION",
+          "model": "constant_control_arc",
+          "certificate_label": "conditional_numerical_not_formal_fp",
+          "node_min": 0.05100000376081559,
+          "checked_min": -0.0025039993460005405,
+          "certified_lower_bound": null,
+          "numerical_allowance_m": 1e-07,
+          "queries": 313,
+          "witnesses": [
+            [
+              15,
+              0.7500000000000001,
+              -0.0025039993460005405,
+              "strict_interior_overlap"
+            ]
+          ],
+          "unresolved": [],
+          "suggested_samples": [
+            [
+              15,
+              0.7500000000000001,
+              -0.0025039993460005405,
+              "strict_interior_overlap"
+            ]
+          ]
+        }
+      },
+      "historical_linear_sampled_swept_min": -0.02081994217725125,
+      "linear_sampled_main": false,
+      "added_samples": []
+    }
+  ],
+  "code_sha256": "64434ce600785ab8ea50b639470c01bfbec9b8f9f52016a97bb8a5da70a5db26"
+}

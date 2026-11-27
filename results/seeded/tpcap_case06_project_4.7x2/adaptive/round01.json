@@ -1,0 +1,482 @@
+{
+  "round": 1,
+  "status": "Solve_Succeeded",
+  "iterations": 65,
+  "objective": 8.945780150655619,
+  "solve_seconds": 41.87474240000029,
+  "validation_seconds": 1.8500656999995044,
+  "distance_queries": 813,
+  "structure": {
+    "configuration_nodes": 52,
+    "interior_pose_constraints": 51,
+    "obstacle_pairs": 3193,
+    "decision_variables": 25442,
+    "constraints": 38424
+  },
+  "samples": [
+    [
+      0,
+      0.5
+    ],
+    [
+      1,
+      0.5
+    ],
+    [
+      2,
+      0.5
+    ],
+    [
+      3,
+      0.5
+    ],
+    [
+      4,
+      0.5
+    ],
+    [
+      5,
+      0.5
+    ],
+    [
+      6,
+      0.5
+    ],
+    [
+      7,
+      0.5
+    ],
+    [
+      8,
+      0.5
+    ],
+    [
+      9,
+      0.5
+    ],
+    [
+      10,
+      0.5
+    ],
+    [
+      11,
+      0.5
+    ],
+    [
+      12,
+      0.5
+    ],
+    [
+      13,
+      0.5
+    ],
+    [
+      14,
+      0.5
+    ],
+    [
+      15,
+      0.5
+    ],
+    [
+      16,
+      0.5
+    ],
+    [
+      17,
+      0.5
+    ],
+    [
+      18,
+      0.5
+    ],
+    [
+      19,
+      0.5
+    ],
+    [
+      20,
+      0.5
+    ],
+    [
+      21,
+      0.5
+    ],
+    [
+      22,
+      0.5
+    ],
+    [
+      23,
+      0.5
+    ],
+    [
+      24,
+      0.5
+    ],
+    [
+      25,
+      0.5
+    ],
+    [
+      26,
+      0.5
+    ],
+    [
+      27,
+      0.5
+    ],
+    [
+      28,
+      0.5
+    ],
+    [
+      29,
+      0.5
+    ],
+    [
+      30,
+      0.5
+    ],
+    [
+      31,
+      0.5
+    ],
+    [
+      32,
+      0.5
+    ],
+    [
+      33,
+      0.5
+    ],
+    [
+      34,
+      0.5
+    ],
+    [
+      35,
+      0.5
+    ],
+    [
+      36,
+      0.5
+    ],
+    [
+      37,
+      0.5
+    ],
+    [
+      38,
+      0.5
+    ],
+    [
+      39,
+      0.5
+    ],
+    [
+      40,
+      0.5
+    ],
+    [
+      41,
+      0.5
+    ],
+    [
+      42,
+      0.5
+    ],
+    [
+      43,
+      0.5
+    ],
+    [
+      44,
+      0.5
+    ],
+    [
+      45,
+      0.5
+    ],
+    [
+      46,
+      0.5
+    ],
+    [
+      47,
+      0.5
+    ],
+    [
+      48,
+      0.5
+    ],
+    [
+      49,
+      0.5
+    ],
+    [
+      50,
+      0.5
+    ]
+  ],
+  "validation": {
+    "accepted": true,
+    "node_pass": true,
+    "dynamics_pass": true,
+    "terminal_pass": true,
+    "acceptance_version": "whole_body_arc_zero_terminal_v2",
+    "checks": {
+      "start": true,
+      "dynamics_residual": true,
+      "rollout_position": true,
+      "rollout_heading": true,
+      "controls": true,
+      "reference_bounds": true,
+      "goal_position": true,
+      "goal_heading": true,
+      "terminal_speed": true,
+      "whole_trajectory": true
+    },
+    "failure_items": [],
+    "saved_node_min": 0.05100009908472928,
+    "global_node_min": 0.051000099085819775,
+    "endpoint_residual_max": 2.1582735598713043e-13,
+    "global_position_drift_m": 2.7085733038064274e-12,
+    "global_heading_drift_rad": 3.079758670310184e-13,
+    "start_residual_max": 4.492967039128444e-34,
+    "terminal_component_errors": [
+      0.04979999785333966,
+      0.049799993670808895,
+      0.030251913491245893
+    ],
+    "terminal_speed": 3.3306690738754696e-16,
+    "control_extrema": {
+      "speed": 1.399496435057501,
+      "accel": 0.9331748618061145,
+      "steering": 0.5995962851722644,
+      "steering_delta": 0.2399999925036811
+    },
+    "reference_bounds_pass": true,
+    "curve": {
+      "state": "PASS",
+      "model": "constant_control_arc",
+      "certificate_label": "conditional_numerical_not_formal_fp",
+      "node_min": 0.051000099085819775,
+      "checked_min": 0.04559713089570473,
+      "certified_lower_bound": 0.0008403820156707738,
+      "numerical_allowance_m": 1e-07,
+      "queries": 251,
+      "witnesses": [],
+      "unresolved": [],
+      "suggested_samples": []
+    }
+  },
+  "historical_linear_sampled_swept_min": 0.048057584644828545,
+  "linear_sampled_main": true,
+  "added_samples": [
+    [
+      0,
+      0.5
+    ],
+    [
+      1,
+      0.5
+    ],
+    [
+      2,
+      0.5
+    ],
+    [
+      3,
+      0.5
+    ],
+    [
+      4,
+      0.5
+    ],
+    [
+      5,
+      0.5
+    ],
+    [
+      6,
+      0.5
+    ],
+    [
+      7,
+      0.5
+    ],
+    [
+      8,
+      0.5
+    ],
+    [
+      9,
+      0.5
+    ],
+    [
+      10,
+      0.5
+    ],
+    [
+      11,
+      0.5
+    ],
+    [
+      12,
+      0.5
+    ],
+    [
+      13,
+      0.5
+    ],
+    [
+      14,
+      0.5
+    ],
+    [
+      15,
+      0.5
+    ],
+    [
+      16,
+      0.5
+    ],
+    [
+      17,
+      0.5
+    ],
+    [
+      18,
+      0.5
+    ],
+    [
+      19,
+      0.5
+    ],
+    [
+      20,
+      0.5
+    ],
+    [
+      21,
+      0.5
+    ],
+    [
+      22,
+      0.5
+    ],
+    [
+      23,
+      0.5
+    ],
+    [
+      24,
+      0.5
+    ],
+    [
+      25,
+      0.5
+    ],
+    [
+      26,
+      0.5
+    ],
+    [
+      27,
+      0.5
+    ],
+    [
+      28,
+      0.5
+    ],
+    [
+      29,
+      0.5
+    ],
+    [
+      30,
+      0.5
+    ],
+    [
+      31,
+      0.5
+    ],
+    [
+      32,
+      0.5
+    ],
+    [
+      33,
+      0.5
+    ],
+    [
+      34,
+      0.5
+    ],
+    [
+      35,
+      0.5
+    ],
+    [
+      36,
+      0.5
+    ],
+    [
+      37,
+      0.5
+    ],
+    [
+      38,
+      0.5
+    ],
+    [
+      39,
+      0.5
+    ],
+    [
+      40,
+      0.5
+    ],
+    [
+      41,
+      0.5
+    ],
+    [
+      42,
+      0.5
+    ],
+    [
+      43,
+      0.5
+    ],
+    [
+      44,
+      0.5
+    ],
+    [
+      45,
+      0.5
+    ],
+    [
+      46,
+      0.5
+    ],
+    [
+      47,
+      0.5
+    ],
+    [
+      48,
+      0.5
+    ],
+    [
+      49,
+      0.5
+    ],
+    [
+      50,
+      0.5
+    ]
+  ]
+}

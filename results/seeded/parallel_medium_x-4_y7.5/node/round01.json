@@ -1,0 +1,88 @@
+{
+  "round": 1,
+  "status": "Solve_Succeeded",
+  "iterations": 61,
+  "objective": 15.588847551410165,
+  "solve_seconds": 2.2402581999995164,
+  "validation_seconds": 0.15133499999956257,
+  "distance_queries": 577,
+  "structure": {
+    "configuration_nodes": 41,
+    "interior_pose_constraints": 0,
+    "obstacle_pairs": 164,
+    "decision_variables": 1556,
+    "constraints": 2378
+  },
+  "samples": [],
+  "validation": {
+    "accepted": false,
+    "node_pass": true,
+    "dynamics_pass": true,
+    "terminal_pass": true,
+    "acceptance_version": "whole_body_arc_zero_terminal_v2",
+    "checks": {
+      "start": true,
+      "dynamics_residual": true,
+      "rollout_position": true,
+      "rollout_heading": true,
+      "controls": true,
+      "reference_bounds": true,
+      "goal_position": true,
+      "goal_heading": true,
+      "terminal_speed": true,
+      "whole_trajectory": false
+    },
+    "failure_items": [
+      "whole_trajectory"
+    ],
+    "saved_node_min": 0.05100000030194758,
+    "global_node_min": 0.05100000031222791,
+    "endpoint_residual_max": 2.394755227452805e-11,
+    "global_position_drift_m": 1.2157133085610658e-10,
+    "global_heading_drift_rad": 2.6520896589943277e-11,
+    "start_residual_max": 2.469163180503409e-33,
+    "terminal_component_errors": [
+      0.04979999986673622,
+      0.049799999866149136,
+      0.049980000017572225
+    ],
+    "terminal_speed": 5.551115123125783e-17,
+    "control_extrema": {
+      "speed": 1.7929933810662808,
+      "accel": 0.9999999998484234,
+      "steering": 0.599596286935818,
+      "steering_delta": 0.23999999992425997
+    },
+    "reference_bounds_pass": true,
+    "curve": {
+      "state": "COLLISION",
+      "model": "constant_control_arc",
+      "certificate_label": "conditional_numerical_not_formal_fp",
+      "node_min": 0.05100000031222791,
+      "checked_min": -0.20073305812496844,
+      "certified_lower_bound": null,
+      "numerical_allowance_m": 1e-07,
+      "queries": 152,
+      "witnesses": [
+        [
+          32,
+          0.5,
+          -0.20073305812496844,
+          "strict_interior_overlap"
+        ]
+      ],
+      "unresolved": [],
+      "suggested_samples": [
+        [
+          32,
+          0.5,
+          -0.20073305812496844,
+          "strict_interior_overlap"
+        ]
+      ]
+    }
+  },
+  "historical_linear_sampled_swept_min": -0.2050042003251047,
+  "linear_sampled_main": false,
+  "added_samples": []
+}

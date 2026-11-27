@@ -1,0 +1,15 @@
+{
+  "status": "NOT_ACCEPTED",
+  "accepted": false,
+  "solver_status": null,
+  "stop_reason": "CACHED_SEARCH_TIMEOUT",
+  "validation_status": "NOT_RUN",
+  "validation": null,
+  "failure_items": [
+    "no_solver_result"
+  ],
+  "ha_status": "WS_SEARCH_TIMEOUT",
+  "code_sha256": "64434ce600785ab8ea50b639470c01bfbec9b8f9f52016a97bb8a5da70a5db26",
+  "source": "seeded",
+  "upstream_failure": true
+}

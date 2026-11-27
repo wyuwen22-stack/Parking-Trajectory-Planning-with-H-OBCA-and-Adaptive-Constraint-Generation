@@ -1,0 +1,21 @@
+{
+  "status": "WS_SEARCH_EXHAUSTED",
+  "source": "seeded_r395",
+  "seed_record": {
+    "id": "tpcap_case20_project_4.7x2",
+    "family": "tpcap",
+    "started_utc": "2026-11-24T04:44:13.237228+00:00",
+    "search_status": "SEARCH_EXHAUSTED",
+    "accepted": false,
+    "expanded": null,
+    "error": "Hybrid A* found no path after 272 expansions",
+    "error_type": "RuntimeError",
+    "search_elapsed_s": 5.279067799999666,
+    "baseline_search_status": "WS_SEARCH",
+    "baseline_accepted": false,
+    "total_elapsed_s": 5.286789299999782
+  },
+  "elapsed_seconds": 0,
+  "stop_reason": "CACHED_SEARCH_EXHAUSTED",
+  "source_time_limit_s": 90.0
+}

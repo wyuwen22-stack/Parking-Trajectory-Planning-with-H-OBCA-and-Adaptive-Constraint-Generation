@@ -1,0 +1,400 @@
+{
+  "file": "results\\seeded\\perpendicular_tight_x0_y7.5\\input.npz",
+  "history": [
+    {
+      "round": 1,
+      "status": "Solve_Succeeded",
+      "iterations": 114,
+      "objective": 12.09456903254422,
+      "solve_seconds": 6.512567799999488,
+      "validation_seconds": 0.13106680000055349,
+      "distance_queries": 543,
+      "structure": {
+        "configuration_nodes": 41,
+        "interior_pose_constraints": 40,
+        "obstacle_pairs": 243,
+        "decision_variables": 2188,
+        "constraints": 3326
+      },
+      "samples": [
+        [
+          0,
+          0.5
+        ],
+        [
+          1,
+          0.5
+        ],
+        [
+          2,
+          0.5
+        ],
+        [
+          3,
+          0.5
+        ],
+        [
+          4,
+          0.5
+        ],
+        [
+          5,
+          0.5
+        ],
+        [
+          6,
+          0.5
+        ],
+        [
+          7,
+          0.5
+        ],
+        [
+          8,
+          0.5
+        ],
+        [
+          9,
+          0.5
+        ],
+        [
+          10,
+          0.5
+        ],
+        [
+          11,
+          0.5
+        ],
+        [
+          12,
+          0.5
+        ],
+        [
+          13,
+          0.5
+        ],
+        [
+          14,
+          0.5
+        ],
+        [
+          15,
+          0.5
+        ],
+        [
+          16,
+          0.5
+        ],
+        [
+          17,
+          0.5
+        ],
+        [
+          18,
+          0.5
+        ],
+        [
+          19,
+          0.5
+        ],
+        [
+          20,
+          0.5
+        ],
+        [
+          21,
+          0.5
+        ],
+        [
+          22,
+          0.5
+        ],
+        [
+          23,
+          0.5
+        ],
+        [
+          24,
+          0.5
+        ],
+        [
+          25,
+          0.5
+        ],
+        [
+          26,
+          0.5
+        ],
+        [
+          27,
+          0.5
+        ],
+        [
+          28,
+          0.5
+        ],
+        [
+          29,
+          0.5
+        ],
+        [
+          30,
+          0.5
+        ],
+        [
+          31,
+          0.5
+        ],
+        [
+          32,
+          0.5
+        ],
+        [
+          33,
+          0.5
+        ],
+        [
+          34,
+          0.5
+        ],
+        [
+          35,
+          0.5
+        ],
+        [
+          36,
+          0.5
+        ],
+        [
+          37,
+          0.5
+        ],
+        [
+          38,
+          0.5
+        ],
+        [
+          39,
+          0.5
+        ]
+      ],
+      "validation": {
+        "accepted": true,
+        "node_pass": true,
+        "dynamics_pass": true,
+        "terminal_pass": true,
+        "acceptance_version": "whole_body_arc_zero_terminal_v2",
+        "checks": {
+          "start": true,
+          "dynamics_residual": true,
+          "rollout_position": true,
+          "rollout_heading": true,
+          "controls": true,
+          "reference_bounds": true,
+          "goal_position": true,
+          "goal_heading": true,
+          "terminal_speed": true,
+          "whole_trajectory": true
+        },
+        "failure_items": [],
+        "saved_node_min": 0.051000029867690394,
+        "global_node_min": 0.05100002986868502,
+        "endpoint_residual_max": 4.551463372859388e-13,
+        "global_position_drift_m": 3.4217286396655845e-12,
+        "global_heading_drift_rad": 6.548095399239173e-13,
+        "start_residual_max": 5.079119263577934e-34,
+        "terminal_component_errors": [
+          0.049799999095241965,
+          0.04979999887894304,
+          0.04997999862465496
+        ],
+        "terminal_speed": -1.6653345369377348e-16,
+        "control_extrema": {
+          "speed": 0.862444287186883,
+          "accel": 0.6816839508727472,
+          "steering": 0.5995962865743258,
+          "steering_delta": 0.23999999930434665
+        },
+        "reference_bounds_pass": true,
+        "curve": {
+          "state": "PASS",
+          "model": "constant_control_arc",
+          "certificate_label": "conditional_numerical_not_formal_fp",
+          "node_min": 0.05100002986868502,
+          "checked_min": 0.050617003512557046,
+          "certified_lower_bound": 0.0011542617298005598,
+          "numerical_allowance_m": 1e-07,
+          "queries": 219,
+          "witnesses": [],
+          "unresolved": [],
+          "suggested_samples": []
+        }
+      },
+      "historical_linear_sampled_swept_min": 0.051000029867690394,
+      "linear_sampled_main": true,
+      "added_samples": [
+        [
+          0,
+          0.5
+        ],
+        [
+          1,
+          0.5
+        ],
+        [
+          2,
+          0.5
+        ],
+        [
+          3,
+          0.5
+        ],
+        [
+          4,
+          0.5
+        ],
+        [
+          5,
+          0.5
+        ],
+        [
+          6,
+          0.5
+        ],
+        [
+          7,
+          0.5
+        ],
+        [
+          8,
+          0.5
+        ],
+        [
+          9,
+          0.5
+        ],
+        [
+          10,
+          0.5
+        ],
+        [
+          11,
+          0.5
+        ],
+        [
+          12,
+          0.5
+        ],
+        [
+          13,
+          0.5
+        ],
+        [
+          14,
+          0.5
+        ],
+        [
+          15,
+          0.5
+        ],
+        [
+          16,
+          0.5
+        ],
+        [
+          17,
+          0.5
+        ],
+        [
+          18,
+          0.5
+        ],
+        [
+          19,
+          0.5
+        ],
+        [
+          20,
+          0.5
+        ],
+        [
+          21,
+          0.5
+        ],
+        [
+          22,
+          0.5
+        ],
+        [
+          23,
+          0.5
+        ],
+        [
+          24,
+          0.5
+        ],
+        [
+          25,
+          0.5
+        ],
+        [
+          26,
+          0.5
+        ],
+        [
+          27,
+          0.5
+        ],
+        [
+          28,
+          0.5
+        ],
+        [
+          29,
+          0.5
+        ],
+        [
+          30,
+          0.5
+        ],
+        [
+          31,
+          0.5
+        ],
+        [
+          32,
+          0.5
+        ],
+        [
+          33,
+          0.5
+        ],
+        [
+          34,
+          0.5
+        ],
+        [
+          35,
+          0.5
+        ],
+        [
+          36,
+          0.5
+        ],
+        [
+          37,
+          0.5
+        ],
+        [
+          38,
+          0.5
+        ],
+        [
+          39,
+          0.5
+        ]
+      ]
+    }
+  ],
+  "code_sha256": "64434ce600785ab8ea50b639470c01bfbec9b8f9f52016a97bb8a5da70a5db26"
+}

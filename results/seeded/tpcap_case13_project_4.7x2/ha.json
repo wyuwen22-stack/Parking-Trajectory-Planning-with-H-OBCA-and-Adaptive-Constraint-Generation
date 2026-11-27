@@ -1,0 +1,51 @@
+{
+  "source_time_limit_s": 90.0,
+  "source": "seeded_r395",
+  "path_sha256": "2f286cb16c0ef44a802424e86cbe70d8a5fc852b4325e4fd2daa92ce2c9bcffe",
+  "expanded": 11016,
+  "seed_returned_path_5cm_pass": true,
+  "seed_record": {
+    "id": "tpcap_case13_project_4.7x2",
+    "family": "tpcap",
+    "started_utc": "2026-11-24T04:21:05.975353+00:00",
+    "search_status": "PATH",
+    "accepted": true,
+    "expanded": 11016,
+    "cost": 16.925944345255566,
+    "returned_states": 58,
+    "search_elapsed_s": 71.7101004000001,
+    "endpoint_pass": true,
+    "sampled_rectangle_clearance_pass": true,
+    "start_error": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "terminal_error": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "path_sha256": "2f286cb16c0ef44a802424e86cbe70d8a5fc852b4325e4fd2daa92ce2c9bcffe",
+    "baseline_search_status": "WS_SEARCH",
+    "baseline_accepted": false,
+    "total_elapsed_s": 73.18026950000012
+  },
+  "status": "PATH",
+  "node_min": 0.15215003579753406,
+  "linear_sampled_min": 0.05496174694238158,
+  "geometric_main": true,
+  "geometric_conditional_state": "PASS",
+  "geometric_conditional_lower": 0.008267091030434718,
+  "horizon": 42,
+  "Ts": 0.4,
+  "initial_arc_residual_before_clip": 0.36239888354424643,
+  "initial_accel_max": 2.8193571066731153,
+  "elapsed_seconds": 0.6129510999999184,
+  "prepared_input_sha256": "c927a58859e83b76ef28b7d568b023bfac12a5c6024fd825df93aa2c52792c8f",
+  "terminal_error": [
+    0.0,
+    0.0,
+    0.0
+  ]
+}

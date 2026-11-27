@@ -1,0 +1,6 @@
+{
+  "resumed_utc": "2026-11-24T04:03:55.703480+00:00",
+  "completed": 75,
+  "next_case": "diagonal_tight_a45_x8_y8.5",
+  "reason": "Previous execution session unavailable and no Python process listed; resume case checkpoints without rerunning completed cases."
+}

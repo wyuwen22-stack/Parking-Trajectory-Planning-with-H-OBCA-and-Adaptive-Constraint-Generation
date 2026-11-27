@@ -1,0 +1,262 @@
+{
+  "round": 3,
+  "status": "Solve_Succeeded",
+  "iterations": 24,
+  "objective": 11.711673590599558,
+  "solve_seconds": 2.9936394999995173,
+  "validation_seconds": 0.17749360000016168,
+  "distance_queries": 537,
+  "structure": {
+    "configuration_nodes": 41,
+    "interior_pose_constraints": 42,
+    "obstacle_pairs": 332,
+    "decision_variables": 2900,
+    "constraints": 4394
+  },
+  "samples": [
+    [
+      0,
+      0.5
+    ],
+    [
+      1,
+      0.5
+    ],
+    [
+      2,
+      0.5
+    ],
+    [
+      3,
+      0.5
+    ],
+    [
+      4,
+      0.5
+    ],
+    [
+      5,
+      0.5
+    ],
+    [
+      6,
+      0.5
+    ],
+    [
+      7,
+      0.5
+    ],
+    [
+      8,
+      0.5
+    ],
+    [
+      9,
+      0.5
+    ],
+    [
+      10,
+      0.5
+    ],
+    [
+      11,
+      0.5
+    ],
+    [
+      12,
+      0.5
+    ],
+    [
+      13,
+      0.5
+    ],
+    [
+      14,
+      0.5
+    ],
+    [
+      15,
+      0.5
+    ],
+    [
+      16,
+      0.5
+    ],
+    [
+      17,
+      0.5
+    ],
+    [
+      18,
+      0.5
+    ],
+    [
+      19,
+      0.5
+    ],
+    [
+      20,
+      0.5
+    ],
+    [
+      21,
+      0.5
+    ],
+    [
+      22,
+      0.5
+    ],
+    [
+      23,
+      0.5
+    ],
+    [
+      24,
+      0.5
+    ],
+    [
+      25,
+      0.5
+    ],
+    [
+      26,
+      0.5
+    ],
+    [
+      27,
+      0.5
+    ],
+    [
+      28,
+      0.5
+    ],
+    [
+      29,
+      0.5
+    ],
+    [
+      30,
+      0.5
+    ],
+    [
+      31,
+      0.25
+    ],
+    [
+      31,
+      0.5
+    ],
+    [
+      31,
+      0.75
+    ],
+    [
+      32,
+      0.5
+    ],
+    [
+      33,
+      0.5
+    ],
+    [
+      34,
+      0.5
+    ],
+    [
+      35,
+      0.5
+    ],
+    [
+      36,
+      0.5
+    ],
+    [
+      37,
+      0.5
+    ],
+    [
+      38,
+      0.5
+    ],
+    [
+      39,
+      0.5
+    ]
+  ],
+  "validation": {
+    "accepted": false,
+    "node_pass": true,
+    "dynamics_pass": true,
+    "terminal_pass": true,
+    "acceptance_version": "whole_body_arc_zero_terminal_v2",
+    "checks": {
+      "start": true,
+      "dynamics_residual": true,
+      "rollout_position": true,
+      "rollout_heading": true,
+      "controls": true,
+      "reference_bounds": true,
+      "goal_position": true,
+      "goal_heading": true,
+      "terminal_speed": true,
+      "whole_trajectory": false
+    },
+    "failure_items": [
+      "whole_trajectory"
+    ],
+    "saved_node_min": 0.1172784097716697,
+    "global_node_min": 0.11727840892419561,
+    "endpoint_residual_max": 1.5405543507540642e-10,
+    "global_position_drift_m": 8.732603729105027e-10,
+    "global_heading_drift_rad": 2.2038770808308072e-10,
+    "start_residual_max": 4.231624351320123e-34,
+    "terminal_component_errors": [
+      0.049799998646871346,
+      0.049799999054288335,
+      0.049980000100222834
+    ],
+    "terminal_speed": -3.3306690738754696e-16,
+    "control_extrema": {
+      "speed": 1.4735954392877475,
+      "accel": 0.9999999973335384,
+      "steering": 0.5995962866152502,
+      "steering_delta": 0.23999999925845977
+    },
+    "reference_bounds_pass": true,
+    "curve": {
+      "state": "COLLISION",
+      "model": "constant_control_arc",
+      "certificate_label": "conditional_numerical_not_formal_fp",
+      "node_min": 0.11727840892419561,
+      "checked_min": -0.004334256803419034,
+      "certified_lower_bound": null,
+      "numerical_allowance_m": 1e-07,
+      "queries": 172,
+      "witnesses": [
+        [
+          31,
+          0.359375,
+          -0.004334256803419034,
+          "strict_interior_overlap"
+        ]
+      ],
+      "unresolved": [],
+      "suggested_samples": [
+        [
+          31,
+          0.359375,
+          -0.004334256803419034,
+          "strict_interior_overlap"
+        ]
+      ]
+    }
+  },
+  "historical_linear_sampled_swept_min": 0.007691549203689085,
+  "linear_sampled_main": true,
+  "added_samples": [
+    [
+      31,
+      0.25
+    ]
+  ]
+}

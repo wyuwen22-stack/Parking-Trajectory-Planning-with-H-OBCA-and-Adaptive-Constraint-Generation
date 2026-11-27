@@ -1,0 +1,66 @@
+{
+  "source_time_limit_s": 90.0,
+  "source": "seeded_r395",
+  "path_sha256": "51ae5d35b37135ea3e9eb64b445f3e7df62f73ab05d13fcc9781a6a249934e46",
+  "expanded": 4366,
+  "seed_returned_path_5cm_pass": true,
+  "seed_record": {
+    "id": "perpendicular_tight_x-4_y7.5",
+    "family": "standard",
+    "started_utc": "2026-11-23T17:18:47.706325+00:00",
+    "search_status": "PATH",
+    "accepted": true,
+    "expanded": 4366,
+    "cost": 16.309898445949155,
+    "returned_states": 56,
+    "search_elapsed_s": 7.673020099995483,
+    "endpoint_pass": true,
+    "sampled_rectangle_clearance_pass": true,
+    "start_error": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "terminal_error": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "path_sha256": "51ae5d35b37135ea3e9eb64b445f3e7df62f73ab05d13fcc9781a6a249934e46",
+    "baseline_search_status": "PATH",
+    "baseline_accepted": true,
+    "baseline_verification": {
+      "endpoint_pass": true,
+      "sampled_rectangle_clearance_pass": true,
+      "accepted": true,
+      "start_error": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "terminal_error": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "total_elapsed_s": 11.313868099998217
+  },
+  "status": "PATH",
+  "node_min": 0.06118817098231499,
+  "linear_sampled_min": 0.06118817098231499,
+  "geometric_main": true,
+  "geometric_conditional_state": "PASS",
+  "geometric_conditional_lower": 0.005713547983131897,
+  "horizon": 41,
+  "Ts": 0.4,
+  "initial_arc_residual_before_clip": 0.4062676244326431,
+  "initial_accel_max": 5.621031583375397,
+  "elapsed_seconds": 0.4975975000006656,
+  "prepared_input_sha256": "80ee6165c0e7563d5b9ff4b891183336d21fe31a9ac8c6c59c3452e2eb47ad5e",
+  "terminal_error": [
+    0.0,
+    0.0,
+    0.0
+  ]
+}

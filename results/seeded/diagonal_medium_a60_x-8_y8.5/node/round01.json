@@ -1,0 +1,72 @@
+{
+  "round": 1,
+  "status": "Solve_Succeeded",
+  "iterations": 26,
+  "objective": 7.83427921257638,
+  "solve_seconds": 1.3875344999996742,
+  "validation_seconds": 0.22787460000017745,
+  "distance_queries": 701,
+  "structure": {
+    "configuration_nodes": 46,
+    "interior_pose_constraints": 0,
+    "obstacle_pairs": 138,
+    "decision_variables": 1332,
+    "constraints": 2070
+  },
+  "samples": [],
+  "validation": {
+    "accepted": true,
+    "node_pass": true,
+    "dynamics_pass": true,
+    "terminal_pass": true,
+    "acceptance_version": "whole_body_arc_zero_terminal_v2",
+    "checks": {
+      "start": true,
+      "dynamics_residual": true,
+      "rollout_position": true,
+      "rollout_heading": true,
+      "controls": true,
+      "reference_bounds": true,
+      "goal_position": true,
+      "goal_heading": true,
+      "terminal_speed": true,
+      "whole_trajectory": true
+    },
+    "failure_items": [],
+    "saved_node_min": 0.05100001298812849,
+    "global_node_min": 0.051000012988129194,
+    "endpoint_residual_max": 8.881784197001252e-16,
+    "global_position_drift_m": 4.265337574760008e-15,
+    "global_heading_drift_rad": 2.7755575615628914e-16,
+    "start_residual_max": 1.3916732086174812e-36,
+    "terminal_component_errors": [
+      0.049799998259053124,
+      0.04979999949663405,
+      0.049979999527139274
+    ],
+    "terminal_speed": -1.1102230246251565e-16,
+    "control_extrema": {
+      "speed": 1.2710316208618504,
+      "accel": 0.9273979066998632,
+      "steering": 0.5995962851889978,
+      "steering_delta": 0.23999999174641473
+    },
+    "reference_bounds_pass": true,
+    "curve": {
+      "state": "PASS",
+      "model": "constant_control_arc",
+      "certificate_label": "conditional_numerical_not_formal_fp",
+      "node_min": 0.051000012988129194,
+      "checked_min": 0.041878899503261326,
+      "certified_lower_bound": 0.001038425517103983,
+      "numerical_allowance_m": 1e-07,
+      "queries": 232,
+      "witnesses": [],
+      "unresolved": [],
+      "suggested_samples": []
+    }
+  },
+  "historical_linear_sampled_swept_min": 0.04190823883296786,
+  "linear_sampled_main": true,
+  "added_samples": []
+}

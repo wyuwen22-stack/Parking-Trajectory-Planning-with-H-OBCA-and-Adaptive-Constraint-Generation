@@ -1,0 +1,13 @@
+{
+  "status": "NOT_ACCEPTED",
+  "accepted": false,
+  "solver_status": null,
+  "stop_reason": "WORKER_ERROR",
+  "validation_status": "NOT_RUN",
+  "validation": null,
+  "failure_items": [
+    "no_solver_result"
+  ],
+  "returncode": 3221225477,
+  "elapsed_seconds": 426.17250609999996
+}

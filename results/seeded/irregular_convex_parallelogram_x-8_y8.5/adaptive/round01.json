@@ -1,0 +1,450 @@
+{
+  "round": 1,
+  "status": "Solve_Succeeded",
+  "iterations": 33,
+  "objective": 8.555259142174918,
+  "solve_seconds": 3.1389436999997997,
+  "validation_seconds": 0.2081666000003679,
+  "distance_queries": 743,
+  "structure": {
+    "configuration_nodes": 48,
+    "interior_pose_constraints": 47,
+    "obstacle_pairs": 285,
+    "decision_variables": 2566,
+    "constraints": 3900
+  },
+  "samples": [
+    [
+      0,
+      0.5
+    ],
+    [
+      1,
+      0.5
+    ],
+    [
+      2,
+      0.5
+    ],
+    [
+      3,
+      0.5
+    ],
+    [
+      4,
+      0.5
+    ],
+    [
+      5,
+      0.5
+    ],
+    [
+      6,
+      0.5
+    ],
+    [
+      7,
+      0.5
+    ],
+    [
+      8,
+      0.5
+    ],
+    [
+      9,
+      0.5
+    ],
+    [
+      10,
+      0.5
+    ],
+    [
+      11,
+      0.5
+    ],
+    [
+      12,
+      0.5
+    ],
+    [
+      13,
+      0.5
+    ],
+    [
+      14,
+      0.5
+    ],
+    [
+      15,
+      0.5
+    ],
+    [
+      16,
+      0.5
+    ],
+    [
+      17,
+      0.5
+    ],
+    [
+      18,
+      0.5
+    ],
+    [
+      19,
+      0.5
+    ],
+    [
+      20,
+      0.5
+    ],
+    [
+      21,
+      0.5
+    ],
+    [
+      22,
+      0.5
+    ],
+    [
+      23,
+      0.5
+    ],
+    [
+      24,
+      0.5
+    ],
+    [
+      25,
+      0.5
+    ],
+    [
+      26,
+      0.5
+    ],
+    [
+      27,
+      0.5
+    ],
+    [
+      28,
+      0.5
+    ],
+    [
+      29,
+      0.5
+    ],
+    [
+      30,
+      0.5
+    ],
+    [
+      31,
+      0.5
+    ],
+    [
+      32,
+      0.5
+    ],
+    [
+      33,
+      0.5
+    ],
+    [
+      34,
+      0.5
+    ],
+    [
+      35,
+      0.5
+    ],
+    [
+      36,
+      0.5
+    ],
+    [
+      37,
+      0.5
+    ],
+    [
+      38,
+      0.5
+    ],
+    [
+      39,
+      0.5
+    ],
+    [
+      40,
+      0.5
+    ],
+    [
+      41,
+      0.5
+    ],
+    [
+      42,
+      0.5
+    ],
+    [
+      43,
+      0.5
+    ],
+    [
+      44,
+      0.5
+    ],
+    [
+      45,
+      0.5
+    ],
+    [
+      46,
+      0.5
+    ]
+  ],
+  "validation": {
+    "accepted": true,
+    "node_pass": true,
+    "dynamics_pass": true,
+    "terminal_pass": true,
+    "acceptance_version": "whole_body_arc_zero_terminal_v2",
+    "checks": {
+      "start": true,
+      "dynamics_residual": true,
+      "rollout_position": true,
+      "rollout_heading": true,
+      "controls": true,
+      "reference_bounds": true,
+      "goal_position": true,
+      "goal_heading": true,
+      "terminal_speed": true,
+      "whole_trajectory": true
+    },
+    "failure_items": [],
+    "saved_node_min": 0.05100001220266748,
+    "global_node_min": 0.05100001220267991,
+    "endpoint_residual_max": 3.1086244689504383e-15,
+    "global_position_drift_m": 4.055221866467058e-14,
+    "global_heading_drift_rad": 9.547918011776346e-15,
+    "start_residual_max": 1.5793179891047503e-29,
+    "terminal_component_errors": [
+      0.049799999318253095,
+      0.04979999917604938,
+      0.04997999947030607
+    ],
+    "terminal_speed": -5.551115123125783e-17,
+    "control_extrema": {
+      "speed": 1.3065703303166136,
+      "accel": 0.9297349719514818,
+      "steering": 0.5995962858089644,
+      "steering_delta": 0.23999999419904317
+    },
+    "reference_bounds_pass": true,
+    "curve": {
+      "state": "PASS",
+      "model": "constant_control_arc",
+      "certificate_label": "conditional_numerical_not_formal_fp",
+      "node_min": 0.05100001220267991,
+      "checked_min": 0.012104272209588096,
+      "certified_lower_bound": 0.00040706538467315544,
+      "numerical_allowance_m": 1e-07,
+      "queries": 234,
+      "witnesses": [],
+      "unresolved": [],
+      "suggested_samples": []
+    }
+  },
+  "historical_linear_sampled_swept_min": 0.016951765162882104,
+  "linear_sampled_main": true,
+  "added_samples": [
+    [
+      0,
+      0.5
+    ],
+    [
+      1,
+      0.5
+    ],
+    [
+      2,
+      0.5
+    ],
+    [
+      3,
+      0.5
+    ],
+    [
+      4,
+      0.5
+    ],
+    [
+      5,
+      0.5
+    ],
+    [
+      6,
+      0.5
+    ],
+    [
+      7,
+      0.5
+    ],
+    [
+      8,
+      0.5
+    ],
+    [
+      9,
+      0.5
+    ],
+    [
+      10,
+      0.5
+    ],
+    [
+      11,
+      0.5
+    ],
+    [
+      12,
+      0.5
+    ],
+    [
+      13,
+      0.5
+    ],
+    [
+      14,
+      0.5
+    ],
+    [
+      15,
+      0.5
+    ],
+    [
+      16,
+      0.5
+    ],
+    [
+      17,
+      0.5
+    ],
+    [
+      18,
+      0.5
+    ],
+    [
+      19,
+      0.5
+    ],
+    [
+      20,
+      0.5
+    ],
+    [
+      21,
+      0.5
+    ],
+    [
+      22,
+      0.5
+    ],
+    [
+      23,
+      0.5
+    ],
+    [
+      24,
+      0.5
+    ],
+    [
+      25,
+      0.5
+    ],
+    [
+      26,
+      0.5
+    ],
+    [
+      27,
+      0.5
+    ],
+    [
+      28,
+      0.5
+    ],
+    [
+      29,
+      0.5
+    ],
+    [
+      30,
+      0.5
+    ],
+    [
+      31,
+      0.5
+    ],
+    [
+      32,
+      0.5
+    ],
+    [
+      33,
+      0.5
+    ],
+    [
+      34,
+      0.5
+    ],
+    [
+      35,
+      0.5
+    ],
+    [
+      36,
+      0.5
+    ],
+    [
+      37,
+      0.5
+    ],
+    [
+      38,
+      0.5
+    ],
+    [
+      39,
+      0.5
+    ],
+    [
+      40,
+      0.5
+    ],
+    [
+      41,
+      0.5
+    ],
+    [
+      42,
+      0.5
+    ],
+    [
+      43,
+      0.5
+    ],
+    [
+      44,
+      0.5
+    ],
+    [
+      45,
+      0.5
+    ],
+    [
+      46,
+      0.5
+    ]
+  ]
+}

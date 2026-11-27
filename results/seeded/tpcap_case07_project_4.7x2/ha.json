@@ -1,0 +1,21 @@
+{
+  "status": "WS_SEARCH_TIMEOUT",
+  "source": "seeded_r395",
+  "seed_record": {
+    "id": "tpcap_case07_project_4.7x2",
+    "family": "tpcap",
+    "started_utc": "2026-11-24T04:16:55.103441+00:00",
+    "search_status": "SEARCH_TIMEOUT",
+    "accepted": false,
+    "expanded": null,
+    "error": "Hybrid A* stopped at the resource time cap after 8114 expansions",
+    "error_type": "RuntimeError",
+    "search_elapsed_s": 90.00634309999998,
+    "baseline_search_status": "WS_SEARCH",
+    "baseline_accepted": false,
+    "total_elapsed_s": 90.01491129999988
+  },
+  "elapsed_seconds": 0,
+  "stop_reason": "CACHED_SEARCH_TIMEOUT",
+  "source_time_limit_s": 90.0
+}

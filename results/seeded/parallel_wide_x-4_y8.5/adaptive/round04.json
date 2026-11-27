@@ -1,0 +1,266 @@
+{
+  "round": 4,
+  "status": "Solve_Succeeded",
+  "iterations": 30,
+  "objective": 12.956291923056142,
+  "solve_seconds": 3.0884986999999455,
+  "validation_seconds": 0.2154992999994647,
+  "distance_queries": 670,
+  "structure": {
+    "configuration_nodes": 41,
+    "interior_pose_constraints": 43,
+    "obstacle_pairs": 336,
+    "decision_variables": 2932,
+    "constraints": 4442
+  },
+  "samples": [
+    [
+      0,
+      0.5
+    ],
+    [
+      1,
+      0.5
+    ],
+    [
+      2,
+      0.5
+    ],
+    [
+      3,
+      0.5
+    ],
+    [
+      4,
+      0.5
+    ],
+    [
+      5,
+      0.5
+    ],
+    [
+      6,
+      0.5
+    ],
+    [
+      7,
+      0.5
+    ],
+    [
+      8,
+      0.5
+    ],
+    [
+      9,
+      0.5
+    ],
+    [
+      10,
+      0.5
+    ],
+    [
+      11,
+      0.5
+    ],
+    [
+      12,
+      0.5
+    ],
+    [
+      13,
+      0.5
+    ],
+    [
+      14,
+      0.5
+    ],
+    [
+      15,
+      0.5
+    ],
+    [
+      16,
+      0.5
+    ],
+    [
+      17,
+      0.5
+    ],
+    [
+      18,
+      0.5
+    ],
+    [
+      19,
+      0.5
+    ],
+    [
+      20,
+      0.5
+    ],
+    [
+      21,
+      0.5
+    ],
+    [
+      22,
+      0.5
+    ],
+    [
+      23,
+      0.5
+    ],
+    [
+      24,
+      0.5
+    ],
+    [
+      25,
+      0.5
+    ],
+    [
+      26,
+      0.5
+    ],
+    [
+      27,
+      0.5
+    ],
+    [
+      28,
+      0.5
+    ],
+    [
+      29,
+      0.5
+    ],
+    [
+      30,
+      0.5
+    ],
+    [
+      31,
+      0.25
+    ],
+    [
+      31,
+      0.5
+    ],
+    [
+      31,
+      0.75
+    ],
+    [
+      32,
+      0.25
+    ],
+    [
+      32,
+      0.5
+    ],
+    [
+      33,
+      0.5
+    ],
+    [
+      34,
+      0.5
+    ],
+    [
+      35,
+      0.5
+    ],
+    [
+      36,
+      0.5
+    ],
+    [
+      37,
+      0.5
+    ],
+    [
+      38,
+      0.5
+    ],
+    [
+      39,
+      0.5
+    ]
+  ],
+  "validation": {
+    "accepted": false,
+    "node_pass": true,
+    "dynamics_pass": true,
+    "terminal_pass": true,
+    "acceptance_version": "whole_body_arc_zero_terminal_v2",
+    "checks": {
+      "start": true,
+      "dynamics_residual": true,
+      "rollout_position": true,
+      "rollout_heading": true,
+      "controls": true,
+      "reference_bounds": true,
+      "goal_position": true,
+      "goal_heading": true,
+      "terminal_speed": true,
+      "whole_trajectory": false
+    },
+    "failure_items": [
+      "whole_trajectory"
+    ],
+    "saved_node_min": 0.05100019088758616,
+    "global_node_min": 0.05100019088801537,
+    "endpoint_residual_max": 4.982680934517703e-13,
+    "global_position_drift_m": 4.872694080770373e-12,
+    "global_heading_drift_rad": 1.0186296250935811e-12,
+    "start_residual_max": 2.16350193216263e-33,
+    "terminal_component_errors": [
+      0.0497999994223024,
+      0.04979999960522408,
+      0.04997999991027081
+    ],
+    "terminal_speed": -7.771561172376096e-16,
+    "control_extrema": {
+      "speed": 1.5864462257103646,
+      "accel": 0.9536504094587305,
+      "steering": 0.5995962865275103,
+      "steering_delta": 0.23999999916955717
+    },
+    "reference_bounds_pass": true,
+    "curve": {
+      "state": "COLLISION",
+      "model": "constant_control_arc",
+      "certificate_label": "conditional_numerical_not_formal_fp",
+      "node_min": 0.05100019088801537,
+      "checked_min": -0.006186560243708783,
+      "certified_lower_bound": null,
+      "numerical_allowance_m": 1e-07,
+      "queries": 217,
+      "witnesses": [
+        [
+          31,
+          0.359375,
+          -0.006186560243708783,
+          "strict_interior_overlap"
+        ]
+      ],
+      "unresolved": [],
+      "suggested_samples": [
+        [
+          31,
+          0.359375,
+          -0.006186560243708783,
+          "strict_interior_overlap"
+        ]
+      ]
+    }
+  },
+  "historical_linear_sampled_swept_min": 0.005134495385278104,
+  "linear_sampled_main": true,
+  "added_samples": [
+    [
+      31,
+      0.25
+    ]
+  ]
+}

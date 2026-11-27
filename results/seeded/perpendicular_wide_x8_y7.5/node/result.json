@@ -1,0 +1,154 @@
+{
+  "status": "PASS_CONDITIONAL_NUMERICAL",
+  "accepted": true,
+  "solver_status": "Solve_Succeeded",
+  "stop_reason": "ACCEPTED",
+  "validation_status": "PASS",
+  "validation": {
+    "accepted": true,
+    "node_pass": true,
+    "dynamics_pass": true,
+    "terminal_pass": true,
+    "acceptance_version": "whole_body_arc_zero_terminal_v2",
+    "checks": {
+      "start": true,
+      "dynamics_residual": true,
+      "rollout_position": true,
+      "rollout_heading": true,
+      "controls": true,
+      "reference_bounds": true,
+      "goal_position": true,
+      "goal_heading": true,
+      "terminal_speed": true,
+      "whole_trajectory": true
+    },
+    "failure_items": [],
+    "saved_node_min": 0.051000015580256915,
+    "global_node_min": 0.051000015580230484,
+    "endpoint_residual_max": 6.772360450213455e-14,
+    "global_position_drift_m": 5.660033767622367e-14,
+    "global_heading_drift_rad": 3.8191672047105385e-14,
+    "start_residual_max": 6.992441212392962e-31,
+    "terminal_component_errors": [
+      0.049799999203811965,
+      0.049799993624089156,
+      0.049979998921130475
+    ],
+    "terminal_speed": 7.979727989493313e-16,
+    "control_extrema": {
+      "speed": 1.2755627362637696,
+      "accel": 0.9040622383541869,
+      "steering": 0.5995962793920196,
+      "steering_delta": 0.1592957911717655
+    },
+    "reference_bounds_pass": true,
+    "curve": {
+      "state": "PASS",
+      "model": "constant_control_arc",
+      "certificate_label": "conditional_numerical_not_formal_fp",
+      "node_min": 0.051000015580230484,
+      "checked_min": 0.05035285355507744,
+      "certified_lower_bound": 0.0028765231925887455,
+      "numerical_allowance_m": 1e-07,
+      "queries": 205,
+      "witnesses": [],
+      "unresolved": [],
+      "suggested_samples": []
+    }
+  },
+  "failure_items": [],
+  "file": "results\\seeded\\perpendicular_wide_x8_y7.5\\input.npz",
+  "variant": "node",
+  "history": [
+    {
+      "round": 1,
+      "status": "Solve_Succeeded",
+      "iterations": 22,
+      "objective": 7.008381942524519,
+      "solve_seconds": 1.103383899999244,
+      "validation_seconds": 0.18881560000045283,
+      "distance_queries": 582,
+      "structure": {
+        "configuration_nodes": 43,
+        "interior_pose_constraints": 0,
+        "obstacle_pairs": 129,
+        "decision_variables": 1288,
+        "constraints": 1978
+      },
+      "samples": [],
+      "validation": {
+        "accepted": true,
+        "node_pass": true,
+        "dynamics_pass": true,
+        "terminal_pass": true,
+        "acceptance_version": "whole_body_arc_zero_terminal_v2",
+        "checks": {
+          "start": true,
+          "dynamics_residual": true,
+          "rollout_position": true,
+          "rollout_heading": true,
+          "controls": true,
+          "reference_bounds": true,
+          "goal_position": true,
+          "goal_heading": true,
+          "terminal_speed": true,
+          "whole_trajectory": true
+        },
+        "failure_items": [],
+        "saved_node_min": 0.051000015580256915,
+        "global_node_min": 0.051000015580230484,
+        "endpoint_residual_max": 6.772360450213455e-14,
+        "global_position_drift_m": 5.660033767622367e-14,
+        "global_heading_drift_rad": 3.8191672047105385e-14,
+        "start_residual_max": 6.992441212392962e-31,
+        "terminal_component_errors": [
+          0.049799999203811965,
+          0.049799993624089156,
+          0.049979998921130475
+        ],
+        "terminal_speed": 7.979727989493313e-16,
+        "control_extrema": {
+          "speed": 1.2755627362637696,
+          "accel": 0.9040622383541869,
+          "steering": 0.5995962793920196,
+          "steering_delta": 0.1592957911717655
+        },
+        "reference_bounds_pass": true,
+        "curve": {
+          "state": "PASS",
+          "model": "constant_control_arc",
+          "certificate_label": "conditional_numerical_not_formal_fp",
+          "node_min": 0.051000015580230484,
+          "checked_min": 0.05035285355507744,
+          "certified_lower_bound": 0.0028765231925887455,
+          "numerical_allowance_m": 1e-07,
+          "queries": 205,
+          "witnesses": [],
+          "unresolved": [],
+          "suggested_samples": []
+        }
+      },
+      "historical_linear_sampled_swept_min": 0.04838094075272,
+      "linear_sampled_main": true,
+      "added_samples": []
+    }
+  ],
+  "elapsed_seconds": 1.520564800000102,
+  "warmstart": "shared HA geometry; historical N/Ts; clipped velocity/control initial guess, initial/final v=0; no feasible-initialization guarantee",
+  "N": 42,
+  "code_sha256": "64434ce600785ab8ea50b639470c01bfbec9b8f9f52016a97bb8a5da70a5db26",
+  "regression": false,
+  "vehicle": {
+    "L": 2.7,
+    "Rmin": 3.95,
+    "ego": [
+      3.7,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "delta_max_rad": 0.5995962869690177
+  },
+  "motion_model": "constant_control_arc",
+  "acceptance_version": "whole_body_arc_zero_terminal_v2"
+}

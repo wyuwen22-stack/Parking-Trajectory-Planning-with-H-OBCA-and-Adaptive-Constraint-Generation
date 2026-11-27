@@ -1,0 +1,140 @@
+{
+  "round": 1,
+  "status": "Maximum_Iterations_Exceeded",
+  "iterations": 1500,
+  "objective": 37.4567216517852,
+  "solve_seconds": 436.68671859999995,
+  "validation_seconds": 1.5570737000007284,
+  "distance_queries": 568,
+  "structure": {
+    "configuration_nodes": 41,
+    "interior_pose_constraints": 0,
+    "obstacle_pairs": 1435,
+    "decision_variables": 11560,
+    "constraints": 17466
+  },
+  "samples": [],
+  "validation": {
+    "accepted": false,
+    "node_pass": false,
+    "dynamics_pass": false,
+    "terminal_pass": true,
+    "acceptance_version": "whole_body_arc_zero_terminal_v2",
+    "checks": {
+      "start": false,
+      "dynamics_residual": false,
+      "rollout_position": false,
+      "rollout_heading": false,
+      "controls": true,
+      "reference_bounds": true,
+      "goal_position": true,
+      "goal_heading": true,
+      "terminal_speed": true,
+      "whole_trajectory": false
+    },
+    "failure_items": [
+      "start",
+      "dynamics_residual",
+      "rollout_position",
+      "rollout_heading",
+      "whole_trajectory"
+    ],
+    "saved_node_min": -0.30917202858998744,
+    "global_node_min": -0.3117426510885324,
+    "endpoint_residual_max": 0.00039165571972588076,
+    "global_position_drift_m": 0.0038902520361757927,
+    "global_heading_drift_rad": 0.000960399464496664,
+    "start_residual_max": 3.993158643300632e-06,
+    "terminal_component_errors": [
+      0.03872120350546027,
+      0.012958354275128592,
+      0.004826827428049851
+    ],
+    "terminal_speed": -9.246054498146528e-07,
+    "control_extrema": {
+      "speed": 2.2085688772317362,
+      "accel": 0.9727524277815249,
+      "steering": 0.5859855206478903,
+      "steering_delta": 0.2278235859354439
+    },
+    "reference_bounds_pass": true,
+    "curve": {
+      "state": "COLLISION",
+      "model": "constant_control_arc",
+      "certificate_label": "conditional_numerical_not_formal_fp",
+      "node_min": -0.3117426510885324,
+      "checked_min": -0.3117426510885324,
+      "certified_lower_bound": null,
+      "numerical_allowance_m": 1e-07,
+      "queries": 163,
+      "witnesses": [
+        [
+          12,
+          1.0,
+          -0.3117426510885324,
+          "endpoint_overlap"
+        ],
+        [
+          12,
+          0.5,
+          -0.10468748413320833,
+          "strict_interior_overlap"
+        ],
+        [
+          13,
+          0.0,
+          -0.3117426510885324,
+          "endpoint_overlap"
+        ],
+        [
+          13,
+          0.5,
+          -0.13595309069880204,
+          "strict_interior_overlap"
+        ],
+        [
+          28,
+          0.625,
+          -0.02535859684964903,
+          "strict_interior_overlap"
+        ]
+      ],
+      "unresolved": [],
+      "suggested_samples": [
+        [
+          12,
+          1.0,
+          -0.3117426510885324,
+          "endpoint_overlap"
+        ],
+        [
+          13,
+          0.0,
+          -0.3117426510885324,
+          "endpoint_overlap"
+        ],
+        [
+          13,
+          0.5,
+          -0.13595309069880204,
+          "strict_interior_overlap"
+        ],
+        [
+          12,
+          0.5,
+          -0.10468748413320833,
+          "strict_interior_overlap"
+        ],
+        [
+          28,
+          0.625,
+          -0.02535859684964903,
+          "strict_interior_overlap"
+        ]
+      ]
+    }
+  },
+  "historical_linear_sampled_swept_min": -0.35374902497513877,
+  "linear_sampled_main": false,
+  "added_samples": []
+}

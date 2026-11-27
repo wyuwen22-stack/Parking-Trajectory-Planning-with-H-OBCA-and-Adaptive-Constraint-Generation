@@ -1,0 +1,266 @@
+{
+  "round": 4,
+  "status": "Solve_Succeeded",
+  "iterations": 23,
+  "objective": 11.477463196024953,
+  "solve_seconds": 2.910695399999895,
+  "validation_seconds": 0.1928100999994058,
+  "distance_queries": 534,
+  "structure": {
+    "configuration_nodes": 41,
+    "interior_pose_constraints": 43,
+    "obstacle_pairs": 336,
+    "decision_variables": 2932,
+    "constraints": 4442
+  },
+  "samples": [
+    [
+      0,
+      0.5
+    ],
+    [
+      1,
+      0.5
+    ],
+    [
+      2,
+      0.5
+    ],
+    [
+      3,
+      0.5
+    ],
+    [
+      4,
+      0.5
+    ],
+    [
+      5,
+      0.5
+    ],
+    [
+      6,
+      0.5
+    ],
+    [
+      7,
+      0.5
+    ],
+    [
+      8,
+      0.5
+    ],
+    [
+      9,
+      0.5
+    ],
+    [
+      10,
+      0.5
+    ],
+    [
+      11,
+      0.5
+    ],
+    [
+      12,
+      0.5
+    ],
+    [
+      13,
+      0.5
+    ],
+    [
+      14,
+      0.5
+    ],
+    [
+      15,
+      0.5
+    ],
+    [
+      16,
+      0.5
+    ],
+    [
+      17,
+      0.5
+    ],
+    [
+      18,
+      0.5
+    ],
+    [
+      19,
+      0.5
+    ],
+    [
+      20,
+      0.5
+    ],
+    [
+      21,
+      0.5
+    ],
+    [
+      22,
+      0.5
+    ],
+    [
+      23,
+      0.5
+    ],
+    [
+      24,
+      0.5
+    ],
+    [
+      25,
+      0.5
+    ],
+    [
+      26,
+      0.5
+    ],
+    [
+      27,
+      0.5
+    ],
+    [
+      28,
+      0.5
+    ],
+    [
+      29,
+      0.5
+    ],
+    [
+      30,
+      0.5
+    ],
+    [
+      31,
+      0.25
+    ],
+    [
+      31,
+      0.359375
+    ],
+    [
+      31,
+      0.5
+    ],
+    [
+      31,
+      0.75
+    ],
+    [
+      32,
+      0.5
+    ],
+    [
+      33,
+      0.5
+    ],
+    [
+      34,
+      0.5
+    ],
+    [
+      35,
+      0.5
+    ],
+    [
+      36,
+      0.5
+    ],
+    [
+      37,
+      0.5
+    ],
+    [
+      38,
+      0.5
+    ],
+    [
+      39,
+      0.5
+    ]
+  ],
+  "validation": {
+    "accepted": false,
+    "node_pass": true,
+    "dynamics_pass": true,
+    "terminal_pass": true,
+    "acceptance_version": "whole_body_arc_zero_terminal_v2",
+    "checks": {
+      "start": true,
+      "dynamics_residual": true,
+      "rollout_position": true,
+      "rollout_heading": true,
+      "controls": true,
+      "reference_bounds": true,
+      "goal_position": true,
+      "goal_heading": true,
+      "terminal_speed": true,
+      "whole_trajectory": false
+    },
+    "failure_items": [
+      "whole_trajectory"
+    ],
+    "saved_node_min": 0.05100000216806267,
+    "global_node_min": 0.051000002168016964,
+    "endpoint_residual_max": 5.704325900524054e-13,
+    "global_position_drift_m": 3.3522994410951324e-12,
+    "global_heading_drift_rad": 6.737943536450075e-13,
+    "start_residual_max": 4.911165303557495e-36,
+    "terminal_component_errors": [
+      0.049799999624391855,
+      0.049799999850351995,
+      0.049979999963409905
+    ],
+    "terminal_speed": -1.1102230246251565e-16,
+    "control_extrema": {
+      "speed": 1.4583597155619645,
+      "accel": 0.9999999899034303,
+      "steering": 0.5995962867867901,
+      "steering_delta": 0.23999999962832408
+    },
+    "reference_bounds_pass": true,
+    "curve": {
+      "state": "COLLISION",
+      "model": "constant_control_arc",
+      "certificate_label": "conditional_numerical_not_formal_fp",
+      "node_min": 0.051000002168016964,
+      "checked_min": -0.0030375385198988525,
+      "certified_lower_bound": null,
+      "numerical_allowance_m": 1e-07,
+      "queries": 170,
+      "witnesses": [
+        [
+          31,
+          0.109375,
+          -0.0030375385198988525,
+          "strict_interior_overlap"
+        ]
+      ],
+      "unresolved": [],
+      "suggested_samples": [
+        [
+          31,
+          0.109375,
+          -0.0030375385198988525,
+          "strict_interior_overlap"
+        ]
+      ]
+    }
+  },
+  "historical_linear_sampled_swept_min": -0.0003546474380495823,
+  "linear_sampled_main": false,
+  "added_samples": [
+    [
+      31,
+      0.359375
+    ]
+  ]
+}

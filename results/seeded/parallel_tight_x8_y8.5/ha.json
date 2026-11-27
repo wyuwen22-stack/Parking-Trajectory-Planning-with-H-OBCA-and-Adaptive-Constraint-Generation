@@ -1,0 +1,21 @@
+{
+  "status": "WS_SEARCH_TIMEOUT",
+  "source": "seeded_r395",
+  "seed_record": {
+    "id": "parallel_tight_x8_y8.5",
+    "family": "standard",
+    "started_utc": "2026-11-23T17:35:28.291564+00:00",
+    "search_status": "SEARCH_TIMEOUT",
+    "accepted": false,
+    "expanded": null,
+    "error": "Hybrid A* stopped at the resource time cap after 28536 expansions",
+    "error_type": "RuntimeError",
+    "search_elapsed_s": 90.01645070000086,
+    "baseline_search_status": "WS_SEARCH",
+    "baseline_accepted": false,
+    "total_elapsed_s": 90.01702070000465
+  },
+  "elapsed_seconds": 0,
+  "stop_reason": "CACHED_SEARCH_TIMEOUT",
+  "source_time_limit_s": 90.0
+}

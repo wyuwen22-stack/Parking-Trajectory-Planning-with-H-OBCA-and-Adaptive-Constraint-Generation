@@ -1,0 +1,14 @@
+{
+  "id": "parallel_tight_x8_y7.5",
+  "family": "standard",
+  "started_utc": "2026-11-23T17:33:58.266205+00:00",
+  "search_status": "SEARCH_TIMEOUT",
+  "accepted": false,
+  "expanded": null,
+  "error": "Hybrid A* stopped at the resource time cap after 24541 expansions",
+  "error_type": "RuntimeError",
+  "search_elapsed_s": 90.01859469999908,
+  "baseline_search_status": "WS_SEARCH",
+  "baseline_accepted": false,
+  "total_elapsed_s": 90.01925009999832
+}

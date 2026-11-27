@@ -1,0 +1,42 @@
+{
+  "id": "tpcap_case16_project_4.7x2",
+  "family": "tpcap",
+  "started_utc": "2026-11-24T04:22:35.074901+00:00",
+  "search_status": "PATH",
+  "accepted": true,
+  "expanded": 1148,
+  "cost": 16.214888008848146,
+  "returned_states": 56,
+  "search_elapsed_s": 8.74332900000013,
+  "endpoint_pass": true,
+  "sampled_rectangle_clearance_pass": true,
+  "start_error": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "terminal_error": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "path_sha256": "bbe2b818a45e19650599da12dfbd04bf557396ee0301cebc7b0e65e0246ea2e4",
+  "baseline_search_status": "PATH",
+  "baseline_accepted": true,
+  "baseline_verification": {
+    "endpoint_pass": true,
+    "sampled_rectangle_clearance_pass": true,
+    "accepted": true,
+    "start_error": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "terminal_error": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "total_elapsed_s": 19.666222999999945
+}

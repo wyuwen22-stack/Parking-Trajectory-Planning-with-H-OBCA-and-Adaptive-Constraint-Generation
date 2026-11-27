@@ -1,0 +1,12 @@
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit https://github.com/coin-or/Ipopt
+******************************************************************************
+
+ROUND 1 Solve_Succeeded cert COLLISION accept False samples 40 seconds 5.2
+ROUND 2 Solve_Succeeded cert COLLISION accept False samples 41 seconds 2.64
+ROUND 3 Solve_Succeeded cert COLLISION accept False samples 42 seconds 2.94
+ROUND 4 Solve_Succeeded cert COLLISION accept False samples 43 seconds 2.95
+ROUND 5 Solve_Succeeded cert PASS accept True samples 44 seconds 3.66

@@ -1,0 +1,42 @@
+{
+  "id": "diagonal_tight_a45_x-8_y8.5",
+  "family": "diagonal",
+  "started_utc": "2026-11-23T17:43:28.245749+00:00",
+  "search_status": "PATH",
+  "accepted": true,
+  "expanded": 11676,
+  "cost": 18.280668674124527,
+  "returned_states": 62,
+  "search_elapsed_s": 52.40499280000222,
+  "endpoint_pass": true,
+  "sampled_rectangle_clearance_pass": true,
+  "start_error": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "terminal_error": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "path_sha256": "cee974eecfb10f3b47a8c6e8bf959ec026c862c2ddf4209a85ba6f38740e7e19",
+  "baseline_search_status": "PATH",
+  "baseline_accepted": true,
+  "baseline_verification": {
+    "endpoint_pass": true,
+    "sampled_rectangle_clearance_pass": true,
+    "accepted": true,
+    "start_error": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "terminal_error": [
+      0.0,
+      4.440892098500626e-16,
+      0.0
+    ]
+  },
+  "total_elapsed_s": 56.734880100004375
+}

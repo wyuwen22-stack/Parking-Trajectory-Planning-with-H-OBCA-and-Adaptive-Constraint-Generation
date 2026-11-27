@@ -1,0 +1,1861 @@
+{
+  "source": "/workspace/traj_py/python_scripts/eval_parking/results/final_20261120/report/cases_strict_005.csv",
+  "source_sha256": "d98f0a8c61337fac9e51c8684033e7a96906289f6a9070ad9929eb9d33bae278",
+  "n_formal_scenes": 128,
+  "n_formal_method_rows": 256,
+  "taxonomy": {
+    "standard": 60,
+    "diagonal": 36,
+    "irregular": 12,
+    "tpcap": 20
+  },
+  "predicate": "Exclude WS/OPT/CONS/TERM and precheck from numerator but retain denominator. node>=0.05-1e-12; main=node and finite sampled swept>0 with NO positive-distance tolerance; double005=node and sampled swept>=0.05-1e-12. Sampled validation is NOT continuous certificate.",
+  "overall_128": {
+    "hybrid_astar": {
+      "n": 128,
+      "node": 97,
+      "node_rate": 0.7578125,
+      "main": 97,
+      "main_rate": 0.7578125,
+      "double005": 94,
+      "double005_rate": 0.734375,
+      "nongeometry_failures": {
+        "WS": 22
+      },
+      "node_pass_swept_zero": 0
+    },
+    "h_obca": {
+      "n": 128,
+      "node": 101,
+      "node_rate": 0.7890625,
+      "main": 83,
+      "main_rate": 0.6484375,
+      "double005": 44,
+      "double005_rate": 0.34375,
+      "nongeometry_failures": {
+        "WS": 22,
+        "OPT": 5
+      },
+      "node_pass_swept_zero": 18
+    }
+  },
+  "historical_129": {
+    "hybrid_astar": {
+      "n": 129,
+      "node": 98,
+      "node_rate": 0.7596899224806202,
+      "main": 98,
+      "main_rate": 0.7596899224806202,
+      "double005": 95,
+      "double005_rate": 0.7364341085271318,
+      "nongeometry_failures": {
+        "WS": 22
+      },
+      "node_pass_swept_zero": 0
+    },
+    "h_obca": {
+      "n": 129,
+      "node": 102,
+      "node_rate": 0.7906976744186046,
+      "main": 84,
+      "main_rate": 0.6511627906976745,
+      "double005": 45,
+      "double005_rate": 0.3488372093023256,
+      "nongeometry_failures": {
+        "WS": 22,
+        "OPT": 5
+      },
+      "node_pass_swept_zero": 18
+    }
+  },
+  "groups": [
+    {
+      "level": "family",
+      "group": "standard",
+      "method": "hybrid_astar",
+      "n": 60,
+      "node": 41,
+      "node_rate": 0.6833333333333333,
+      "main": 41,
+      "main_rate": 0.6833333333333333,
+      "double005": 41,
+      "double005_rate": 0.6833333333333333,
+      "nongeometry_failures": {
+        "WS": 14
+      },
+      "node_pass_swept_zero": 0
+    },
+    {
+      "level": "family",
+      "group": "diagonal",
+      "method": "hybrid_astar",
+      "n": 36,
+      "node": 33,
+      "node_rate": 0.9166666666666666,
+      "main": 33,
+      "main_rate": 0.9166666666666666,
+      "double005": 31,
+      "double005_rate": 0.8611111111111112,
+      "nongeometry_failures": {},
+      "node_pass_swept_zero": 0
+    },
+    {
+      "level": "family",
+      "group": "irregular",
+      "method": "hybrid_astar",
+      "n": 12,
+      "node": 10,
+      "node_rate": 0.8333333333333334,
+      "main": 10,
+      "main_rate": 0.8333333333333334,
+      "double005": 9,
+      "double005_rate": 0.75,
+      "nongeometry_failures": {
+        "WS": 1
+      },
+      "node_pass_swept_zero": 0
+    },
+    {
+      "level": "family",
+      "group": "tpcap",
+      "method": "hybrid_astar",
+      "n": 20,
+      "node": 13,
+      "node_rate": 0.65,
+      "main": 13,
+      "main_rate": 0.65,
+      "double005": 13,
+      "double005_rate": 0.65,
+      "nongeometry_failures": {
+        "WS": 7
+      },
+      "node_pass_swept_zero": 0
+    },
+    {
+      "level": "standard_cell",
+      "group": "perpendicular_tight",
+      "method": "hybrid_astar",
+      "n": 10,
+      "node": 9,
+      "node_rate": 0.9,
+      "main": 9,
+      "main_rate": 0.9,
+      "double005": 9,
+      "double005_rate": 0.9,
+      "nongeometry_failures": {},
+      "node_pass_swept_zero": 0
+    },
+    {
+      "level": "standard_cell",
+      "group": "perpendicular_medium",
+      "method": "hybrid_astar",
+      "n": 10,
+      "node": 9,
+      "node_rate": 0.9,
+      "main": 9,
+      "main_rate": 0.9,
+      "double005": 9,
+      "double005_rate": 0.9,
+      "nongeometry_failures": {},
+      "node_pass_swept_zero": 0
+    },
+    {
+      "level": "standard_cell",
+      "group": "perpendicular_wide",
+      "method": "hybrid_astar",
+      "n": 10,
+      "node": 8,
+      "node_rate": 0.8,
+      "main": 8,
+      "main_rate": 0.8,
+      "double005": 8,
+      "double005_rate": 0.8,
+      "nongeometry_failures": {},
+      "node_pass_swept_zero": 0
+    },
+    {
+      "level": "standard_cell",
+      "group": "parallel_tight",
+      "method": "hybrid_astar",
+      "n": 10,
+      "node": 0,
+      "node_rate": 0.0,
+      "main": 0,
+      "main_rate": 0.0,
+      "double005": 0,
+      "double005_rate": 0.0,
+      "nongeometry_failures": {
+        "WS": 10
+      },
+      "node_pass_swept_zero": 0
+    },
+    {
+      "level": "standard_cell",
+      "group": "parallel_medium",
+      "method": "hybrid_astar",
+      "n": 10,
+      "node": 6,
+      "node_rate": 0.6,
+      "main": 6,
+      "main_rate": 0.6,
+      "double005": 6,
+      "double005_rate": 0.6,
+      "nongeometry_failures": {
+        "WS": 4
+      },
+      "node_pass_swept_zero": 0
+    },
+    {
+      "level": "standard_cell",
+      "group": "parallel_wide",
+      "method": "hybrid_astar",
+      "n": 10,
+      "node": 9,
+      "node_rate": 0.9,
+      "main": 9,
+      "main_rate": 0.9,
+      "double005": 9,
+      "double005_rate": 0.9,
+      "nongeometry_failures": {},
+      "node_pass_swept_zero": 0
+    },
+    {
+      "level": "diagonal_angle",
+      "group": "30",
+      "method": "hybrid_astar",
+      "n": 12,
+      "node": 12,
+      "node_rate": 1.0,
+      "main": 12,
+      "main_rate": 1.0,
+      "double005": 12,
+      "double005_rate": 1.0,
+      "nongeometry_failures": {},
+      "node_pass_swept_zero": 0
+    },
+    {
+      "level": "diagonal_angle",
+      "group": "45",
+      "method": "hybrid_astar",
+      "n": 12,
+      "node": 10,
+      "node_rate": 0.8333333333333334,
+      "main": 10,
+      "main_rate": 0.8333333333333334,
+      "double005": 10,
+      "double005_rate": 0.8333333333333334,
+      "nongeometry_failures": {},
+      "node_pass_swept_zero": 0
+    },
+    {
+      "level": "diagonal_angle",
+      "group": "60",
+      "method": "hybrid_astar",
+      "n": 12,
+      "node": 11,
+      "node_rate": 0.9166666666666666,
+      "main": 11,
+      "main_rate": 0.9166666666666666,
+      "double005": 9,
+      "double005_rate": 0.75,
+      "nongeometry_failures": {},
+      "node_pass_swept_zero": 0
+    },
+    {
+      "level": "irregular_shape",
+      "group": "convex_hexagon",
+      "method": "hybrid_astar",
+      "n": 3,
+      "node": 2,
+      "node_rate": 0.6666666666666666,
+      "main": 2,
+      "main_rate": 0.6666666666666666,
+      "double005": 1,
+      "double005_rate": 0.3333333333333333,
+      "nongeometry_failures": {},
+      "node_pass_swept_zero": 0
+    },
+    {
+      "level": "irregular_shape",
+      "group": "convex_parallelogram",
+      "method": "hybrid_astar",
+      "n": 3,
+      "node": 3,
+      "node_rate": 1.0,
+      "main": 3,
+      "main_rate": 1.0,
+      "double005": 3,
+      "double005_rate": 1.0,
+      "nongeometry_failures": {},
+      "node_pass_swept_zero": 0
+    },
+    {
+      "level": "irregular_shape",
+      "group": "concave_L",
+      "method": "hybrid_astar",
+      "n": 3,
+      "node": 3,
+      "node_rate": 1.0,
+      "main": 3,
+      "main_rate": 1.0,
+      "double005": 3,
+      "double005_rate": 1.0,
+      "nongeometry_failures": {},
+      "node_pass_swept_zero": 0
+    },
+    {
+      "level": "irregular_shape",
+      "group": "concave_notch",
+      "method": "hybrid_astar",
+      "n": 3,
+      "node": 2,
+      "node_rate": 0.6666666666666666,
+      "main": 2,
+      "main_rate": 0.6666666666666666,
+      "double005": 2,
+      "double005_rate": 0.6666666666666666,
+      "nongeometry_failures": {
+        "WS": 1
+      },
+      "node_pass_swept_zero": 0
+    },
+    {
+      "level": "family",
+      "group": "standard",
+      "method": "h_obca",
+      "n": 60,
+      "node": 46,
+      "node_rate": 0.7666666666666667,
+      "main": 32,
+      "main_rate": 0.5333333333333333,
+      "double005": 17,
+      "double005_rate": 0.2833333333333333,
+      "nongeometry_failures": {
+        "WS": 14
+      },
+      "node_pass_swept_zero": 14
+    },
+    {
+      "level": "family",
+      "group": "diagonal",
+      "method": "h_obca",
+      "n": 36,
+      "node": 36,
+      "node_rate": 1.0,
+      "main": 34,
+      "main_rate": 0.9444444444444444,
+      "double005": 19,
+      "double005_rate": 0.5277777777777778,
+      "nongeometry_failures": {},
+      "node_pass_swept_zero": 2
+    },
+    {
+      "level": "family",
+      "group": "irregular",
+      "method": "h_obca",
+      "n": 12,
+      "node": 9,
+      "node_rate": 0.75,
+      "main": 8,
+      "main_rate": 0.6666666666666666,
+      "double005": 4,
+      "double005_rate": 0.3333333333333333,
+      "nongeometry_failures": {
+        "OPT": 2,
+        "WS": 1
+      },
+      "node_pass_swept_zero": 1
+    },
+    {
+      "level": "family",
+      "group": "tpcap",
+      "method": "h_obca",
+      "n": 20,
+      "node": 10,
+      "node_rate": 0.5,
+      "main": 9,
+      "main_rate": 0.45,
+      "double005": 4,
+      "double005_rate": 0.2,
+      "nongeometry_failures": {
+        "WS": 7,
+        "OPT": 3
+      },
+      "node_pass_swept_zero": 1
+    },
+    {
+      "level": "standard_cell",
+      "group": "perpendicular_tight",
+      "method": "h_obca",
+      "n": 10,
+      "node": 10,
+      "node_rate": 1.0,
+      "main": 9,
+      "main_rate": 0.9,
+      "double005": 4,
+      "double005_rate": 0.4,
+      "nongeometry_failures": {},
+      "node_pass_swept_zero": 1
+    },
+    {
+      "level": "standard_cell",
+      "group": "perpendicular_medium",
+      "method": "h_obca",
+      "n": 10,
+      "node": 10,
+      "node_rate": 1.0,
+      "main": 9,
+      "main_rate": 0.9,
+      "double005": 6,
+      "double005_rate": 0.6,
+      "nongeometry_failures": {},
+      "node_pass_swept_zero": 1
+    },
+    {
+      "level": "standard_cell",
+      "group": "perpendicular_wide",
+      "method": "h_obca",
+      "n": 10,
+      "node": 10,
+      "node_rate": 1.0,
+      "main": 10,
+      "main_rate": 1.0,
+      "double005": 6,
+      "double005_rate": 0.6,
+      "nongeometry_failures": {},
+      "node_pass_swept_zero": 0
+    },
+    {
+      "level": "standard_cell",
+      "group": "parallel_tight",
+      "method": "h_obca",
+      "n": 10,
+      "node": 0,
+      "node_rate": 0.0,
+      "main": 0,
+      "main_rate": 0.0,
+      "double005": 0,
+      "double005_rate": 0.0,
+      "nongeometry_failures": {
+        "WS": 10
+      },
+      "node_pass_swept_zero": 0
+    },
+    {
+      "level": "standard_cell",
+      "group": "parallel_medium",
+      "method": "h_obca",
+      "n": 10,
+      "node": 6,
+      "node_rate": 0.6,
+      "main": 3,
+      "main_rate": 0.3,
+      "double005": 0,
+      "double005_rate": 0.0,
+      "nongeometry_failures": {
+        "WS": 4
+      },
+      "node_pass_swept_zero": 3
+    },
+    {
+      "level": "standard_cell",
+      "group": "parallel_wide",
+      "method": "h_obca",
+      "n": 10,
+      "node": 10,
+      "node_rate": 1.0,
+      "main": 1,
+      "main_rate": 0.1,
+      "double005": 1,
+      "double005_rate": 0.1,
+      "nongeometry_failures": {},
+      "node_pass_swept_zero": 9
+    },
+    {
+      "level": "diagonal_angle",
+      "group": "30",
+      "method": "h_obca",
+      "n": 12,
+      "node": 12,
+      "node_rate": 1.0,
+      "main": 12,
+      "main_rate": 1.0,
+      "double005": 12,
+      "double005_rate": 1.0,
+      "nongeometry_failures": {},
+      "node_pass_swept_zero": 0
+    },
+    {
+      "level": "diagonal_angle",
+      "group": "45",
+      "method": "h_obca",
+      "n": 12,
+      "node": 12,
+      "node_rate": 1.0,
+      "main": 12,
+      "main_rate": 1.0,
+      "double005": 5,
+      "double005_rate": 0.4166666666666667,
+      "nongeometry_failures": {},
+      "node_pass_swept_zero": 0
+    },
+    {
+      "level": "diagonal_angle",
+      "group": "60",
+      "method": "h_obca",
+      "n": 12,
+      "node": 12,
+      "node_rate": 1.0,
+      "main": 10,
+      "main_rate": 0.8333333333333334,
+      "double005": 2,
+      "double005_rate": 0.16666666666666666,
+      "nongeometry_failures": {},
+      "node_pass_swept_zero": 2
+    },
+    {
+      "level": "irregular_shape",
+      "group": "convex_hexagon",
+      "method": "h_obca",
+      "n": 3,
+      "node": 2,
+      "node_rate": 0.6666666666666666,
+      "main": 1,
+      "main_rate": 0.3333333333333333,
+      "double005": 0,
+      "double005_rate": 0.0,
+      "nongeometry_failures": {
+        "OPT": 1
+      },
+      "node_pass_swept_zero": 1
+    },
+    {
+      "level": "irregular_shape",
+      "group": "convex_parallelogram",
+      "method": "h_obca",
+      "n": 3,
+      "node": 3,
+      "node_rate": 1.0,
+      "main": 3,
+      "main_rate": 1.0,
+      "double005": 2,
+      "double005_rate": 0.6666666666666666,
+      "nongeometry_failures": {},
+      "node_pass_swept_zero": 0
+    },
+    {
+      "level": "irregular_shape",
+      "group": "concave_L",
+      "method": "h_obca",
+      "n": 3,
+      "node": 3,
+      "node_rate": 1.0,
+      "main": 3,
+      "main_rate": 1.0,
+      "double005": 2,
+      "double005_rate": 0.6666666666666666,
+      "nongeometry_failures": {},
+      "node_pass_swept_zero": 0
+    },
+    {
+      "level": "irregular_shape",
+      "group": "concave_notch",
+      "method": "h_obca",
+      "n": 3,
+      "node": 1,
+      "node_rate": 0.3333333333333333,
+      "main": 1,
+      "main_rate": 0.3333333333333333,
+      "double005": 0,
+      "double005_rate": 0.0,
+      "nongeometry_failures": {
+        "OPT": 1,
+        "WS": 1
+      },
+      "node_pass_swept_zero": 0
+    }
+  ],
+  "excluded_regression": [
+    {
+      "method": "hybrid_astar",
+      "family": "standard",
+      "scene_name": "",
+      "vehicle_name": "project_4.7x2",
+      "angle_deg": "",
+      "maneuver": "perpendicular",
+      "tightness": "tight",
+      "start_x": "-9.0",
+      "start_y": "7.0",
+      "start_psi": "3.141592653589793",
+      "is_regression": "1",
+      "success": "1",
+      "fail_code": "",
+      "extra_violations": "",
+      "ha_time": "4.584699717999683",
+      "obca_time": "",
+      "obca_status": "",
+      "iterations": "",
+      "objective": "",
+      "min_node_clearance": "0.09716835196291762",
+      "min_swept_clearance": "0.09716835196291762",
+      "term_dx": "0.0",
+      "term_dy": "0.0",
+      "term_dpsi": "0.0",
+      "term_v": "",
+      "cusp_count": "14",
+      "max_kappa": "6.666762518989777",
+      "max_delta": "",
+      "max_a": "",
+      "max_ddelta": "",
+      "path_length": "21.101636026394186",
+      "parking_time": "",
+      "pos_rms": "",
+      "heading_rms": "",
+      "cons_residual": "",
+      "error": "",
+      "_node": "0.09716835196291762",
+      "_swept": "0.09716835196291762",
+      "_legacy_ok": "1",
+      "_strict_ok": "1",
+      "_label": "STRICT_OK",
+      "_precheck": "0",
+      "recount_node": 1,
+      "recount_main": 1,
+      "recount_double005": 1
+    },
+    {
+      "method": "h_obca",
+      "family": "standard",
+      "scene_name": "",
+      "vehicle_name": "project_4.7x2",
+      "angle_deg": "",
+      "maneuver": "perpendicular",
+      "tightness": "tight",
+      "start_x": "-9.0",
+      "start_y": "7.0",
+      "start_psi": "3.141592653589793",
+      "is_regression": "1",
+      "success": "1",
+      "fail_code": "",
+      "extra_violations": "",
+      "ha_time": "4.5429845199996635",
+      "obca_time": "2.2534214930001326",
+      "obca_status": "Solve_Succeeded",
+      "iterations": "52.0",
+      "objective": "9.398251986588729",
+      "min_node_clearance": "0.050369441145056024",
+      "min_swept_clearance": "0.050369441145056024",
+      "term_dx": "0.049991635749897775",
+      "term_dy": "0.049987084149952565",
+      "term_dpsi": "-0.04997586679543442",
+      "term_v": "-0.0999930237719997",
+      "cusp_count": "2",
+      "max_kappa": "1.1260120170697612",
+      "max_delta": "0.49512018819426357",
+      "max_a": "0.9819806864914998",
+      "max_ddelta": "0.23992550974942295",
+      "path_length": "16.749142003143547",
+      "parking_time": "21.200000000000003",
+      "pos_rms": "0.4517832211708585",
+      "heading_rms": "0.2774857238893427",
+      "cons_residual": "0.0",
+      "error": "",
+      "_node": "0.050369441145056024",
+      "_swept": "0.050369441145056024",
+      "_legacy_ok": "1",
+      "_strict_ok": "1",
+      "_label": "STRICT_OK",
+      "_precheck": "0",
+      "recount_node": 1,
+      "recount_main": 1,
+      "recount_double005": 1
+    }
+  ],
+  "set_checks": {
+    "overlap18": {
+      "historical129_count": 18,
+      "formal128_count": 18,
+      "same_exact_members": true,
+      "members_formal": [
+        [
+          "diagonal",
+          "diagonal",
+          "medium",
+          "diagonal_60",
+          "-8.0",
+          "8.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "diagonal",
+          "diagonal",
+          "wide",
+          "diagonal_60",
+          "-8.0",
+          "8.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "irregular",
+          "irregular",
+          "convex_hexagon",
+          "convex_hexagon",
+          "-8.0",
+          "8.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "standard",
+          "parallel",
+          "medium",
+          "",
+          "-4.0",
+          "7.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "standard",
+          "parallel",
+          "medium",
+          "",
+          "-4.0",
+          "8.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "standard",
+          "parallel",
+          "medium",
+          "",
+          "0.0",
+          "8.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "standard",
+          "parallel",
+          "wide",
+          "",
+          "-4.0",
+          "7.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "standard",
+          "parallel",
+          "wide",
+          "",
+          "-4.0",
+          "8.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "standard",
+          "parallel",
+          "wide",
+          "",
+          "-8.0",
+          "7.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "standard",
+          "parallel",
+          "wide",
+          "",
+          "-8.0",
+          "8.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "standard",
+          "parallel",
+          "wide",
+          "",
+          "0.0",
+          "7.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "standard",
+          "parallel",
+          "wide",
+          "",
+          "0.0",
+          "8.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "standard",
+          "parallel",
+          "wide",
+          "",
+          "4.0",
+          "8.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "standard",
+          "parallel",
+          "wide",
+          "",
+          "8.0",
+          "7.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "standard",
+          "parallel",
+          "wide",
+          "",
+          "8.0",
+          "8.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "standard",
+          "perpendicular",
+          "medium",
+          "",
+          "-8.0",
+          "7.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "standard",
+          "perpendicular",
+          "tight",
+          "",
+          "-8.0",
+          "7.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "tpcap",
+          "tpcap",
+          "case01",
+          "Case1",
+          "-16.0199004975124",
+          "-13.5074626865672",
+          "0.200398553825878",
+          "0"
+        ]
+      ]
+    },
+    "ha_double_safe_overlap15": {
+      "historical129_count": 15,
+      "formal128_count": 15,
+      "same_exact_members": true,
+      "members_formal": [
+        [
+          "diagonal",
+          "diagonal",
+          "medium",
+          "diagonal_60",
+          "-8.0",
+          "8.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "irregular",
+          "irregular",
+          "convex_hexagon",
+          "convex_hexagon",
+          "-8.0",
+          "8.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "standard",
+          "parallel",
+          "medium",
+          "",
+          "-4.0",
+          "7.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "standard",
+          "parallel",
+          "medium",
+          "",
+          "-4.0",
+          "8.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "standard",
+          "parallel",
+          "medium",
+          "",
+          "0.0",
+          "8.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "standard",
+          "parallel",
+          "wide",
+          "",
+          "-4.0",
+          "8.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "standard",
+          "parallel",
+          "wide",
+          "",
+          "-8.0",
+          "7.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "standard",
+          "parallel",
+          "wide",
+          "",
+          "-8.0",
+          "8.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "standard",
+          "parallel",
+          "wide",
+          "",
+          "0.0",
+          "7.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "standard",
+          "parallel",
+          "wide",
+          "",
+          "0.0",
+          "8.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "standard",
+          "parallel",
+          "wide",
+          "",
+          "4.0",
+          "8.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "standard",
+          "parallel",
+          "wide",
+          "",
+          "8.0",
+          "7.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "standard",
+          "parallel",
+          "wide",
+          "",
+          "8.0",
+          "8.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "standard",
+          "perpendicular",
+          "medium",
+          "",
+          "-8.0",
+          "7.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "tpcap",
+          "tpcap",
+          "case01",
+          "Case1",
+          "-16.0199004975124",
+          "-13.5074626865672",
+          "0.200398553825878",
+          "0"
+        ]
+      ]
+    },
+    "ha_main_safe_overlap": {
+      "historical129_count": 15,
+      "formal128_count": 15,
+      "same_exact_members": true,
+      "members_formal": [
+        [
+          "diagonal",
+          "diagonal",
+          "medium",
+          "diagonal_60",
+          "-8.0",
+          "8.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "irregular",
+          "irregular",
+          "convex_hexagon",
+          "convex_hexagon",
+          "-8.0",
+          "8.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "standard",
+          "parallel",
+          "medium",
+          "",
+          "-4.0",
+          "7.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "standard",
+          "parallel",
+          "medium",
+          "",
+          "-4.0",
+          "8.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "standard",
+          "parallel",
+          "medium",
+          "",
+          "0.0",
+          "8.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "standard",
+          "parallel",
+          "wide",
+          "",
+          "-4.0",
+          "8.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "standard",
+          "parallel",
+          "wide",
+          "",
+          "-8.0",
+          "7.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "standard",
+          "parallel",
+          "wide",
+          "",
+          "-8.0",
+          "8.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "standard",
+          "parallel",
+          "wide",
+          "",
+          "0.0",
+          "7.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "standard",
+          "parallel",
+          "wide",
+          "",
+          "0.0",
+          "8.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "standard",
+          "parallel",
+          "wide",
+          "",
+          "4.0",
+          "8.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "standard",
+          "parallel",
+          "wide",
+          "",
+          "8.0",
+          "7.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "standard",
+          "parallel",
+          "wide",
+          "",
+          "8.0",
+          "8.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "standard",
+          "perpendicular",
+          "medium",
+          "",
+          "-8.0",
+          "7.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "tpcap",
+          "tpcap",
+          "case01",
+          "Case1",
+          "-16.0199004975124",
+          "-13.5074626865672",
+          "0.200398553825878",
+          "0"
+        ]
+      ]
+    },
+    "ha_double_to_h_below005": {
+      "historical129_count": 48,
+      "formal128_count": 48,
+      "same_exact_members": true,
+      "members_formal": [
+        [
+          "diagonal",
+          "diagonal",
+          "medium",
+          "diagonal_45",
+          "-4.0",
+          "7.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "diagonal",
+          "diagonal",
+          "medium",
+          "diagonal_45",
+          "-8.0",
+          "8.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "diagonal",
+          "diagonal",
+          "medium",
+          "diagonal_60",
+          "-4.0",
+          "7.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "diagonal",
+          "diagonal",
+          "medium",
+          "diagonal_60",
+          "-8.0",
+          "8.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "diagonal",
+          "diagonal",
+          "medium",
+          "diagonal_60",
+          "4.0",
+          "7.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "diagonal",
+          "diagonal",
+          "tight",
+          "diagonal_45",
+          "-4.0",
+          "7.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "diagonal",
+          "diagonal",
+          "tight",
+          "diagonal_45",
+          "-8.0",
+          "8.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "diagonal",
+          "diagonal",
+          "tight",
+          "diagonal_45",
+          "4.0",
+          "7.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "diagonal",
+          "diagonal",
+          "tight",
+          "diagonal_60",
+          "-4.0",
+          "7.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "diagonal",
+          "diagonal",
+          "tight",
+          "diagonal_60",
+          "-8.0",
+          "8.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "diagonal",
+          "diagonal",
+          "tight",
+          "diagonal_60",
+          "4.0",
+          "7.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "diagonal",
+          "diagonal",
+          "wide",
+          "diagonal_45",
+          "-4.0",
+          "7.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "diagonal",
+          "diagonal",
+          "wide",
+          "diagonal_60",
+          "-4.0",
+          "7.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "irregular",
+          "irregular",
+          "concave_L",
+          "concave_L",
+          "-8.0",
+          "8.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "irregular",
+          "irregular",
+          "concave_notch",
+          "concave_notch",
+          "-8.0",
+          "8.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "irregular",
+          "irregular",
+          "convex_hexagon",
+          "convex_hexagon",
+          "-8.0",
+          "8.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "irregular",
+          "irregular",
+          "convex_parallelogram",
+          "convex_parallelogram",
+          "-8.0",
+          "8.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "standard",
+          "parallel",
+          "medium",
+          "",
+          "-4.0",
+          "7.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "standard",
+          "parallel",
+          "medium",
+          "",
+          "-4.0",
+          "8.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "standard",
+          "parallel",
+          "medium",
+          "",
+          "0.0",
+          "7.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "standard",
+          "parallel",
+          "medium",
+          "",
+          "0.0",
+          "8.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "standard",
+          "parallel",
+          "medium",
+          "",
+          "4.0",
+          "7.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "standard",
+          "parallel",
+          "medium",
+          "",
+          "4.0",
+          "8.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "standard",
+          "parallel",
+          "wide",
+          "",
+          "-4.0",
+          "8.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "standard",
+          "parallel",
+          "wide",
+          "",
+          "-8.0",
+          "7.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "standard",
+          "parallel",
+          "wide",
+          "",
+          "-8.0",
+          "8.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "standard",
+          "parallel",
+          "wide",
+          "",
+          "0.0",
+          "7.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "standard",
+          "parallel",
+          "wide",
+          "",
+          "0.0",
+          "8.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "standard",
+          "parallel",
+          "wide",
+          "",
+          "4.0",
+          "8.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "standard",
+          "parallel",
+          "wide",
+          "",
+          "8.0",
+          "7.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "standard",
+          "parallel",
+          "wide",
+          "",
+          "8.0",
+          "8.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "standard",
+          "perpendicular",
+          "medium",
+          "",
+          "-8.0",
+          "7.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "standard",
+          "perpendicular",
+          "medium",
+          "",
+          "-8.0",
+          "8.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "standard",
+          "perpendicular",
+          "medium",
+          "",
+          "4.0",
+          "8.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "standard",
+          "perpendicular",
+          "medium",
+          "",
+          "8.0",
+          "7.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "standard",
+          "perpendicular",
+          "tight",
+          "",
+          "-4.0",
+          "8.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "standard",
+          "perpendicular",
+          "tight",
+          "",
+          "-8.0",
+          "8.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "standard",
+          "perpendicular",
+          "tight",
+          "",
+          "4.0",
+          "8.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "standard",
+          "perpendicular",
+          "tight",
+          "",
+          "8.0",
+          "7.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "standard",
+          "perpendicular",
+          "tight",
+          "",
+          "8.0",
+          "8.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "standard",
+          "perpendicular",
+          "wide",
+          "",
+          "-8.0",
+          "7.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "standard",
+          "perpendicular",
+          "wide",
+          "",
+          "0.0",
+          "8.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "tpcap",
+          "tpcap",
+          "case01",
+          "Case1",
+          "-16.0199004975124",
+          "-13.5074626865672",
+          "0.200398553825878",
+          "0"
+        ],
+        [
+          "tpcap",
+          "tpcap",
+          "case04",
+          "Case4",
+          "11.2437810945274",
+          "6.14427860696518",
+          "-1.70786250110508",
+          "0"
+        ],
+        [
+          "tpcap",
+          "tpcap",
+          "case06",
+          "Case6",
+          "-4.17910447761194",
+          "-2.16417910447761",
+          "1.72739820377691",
+          "0"
+        ],
+        [
+          "tpcap",
+          "tpcap",
+          "case08",
+          "Case8",
+          "-13.3333333333333",
+          "2.36318407960199",
+          "-0.242208587109621",
+          "0"
+        ],
+        [
+          "tpcap",
+          "tpcap",
+          "case10",
+          "Case10",
+          "1.17953879144713",
+          "5.65298514028592",
+          "-3.97310641762305",
+          "0"
+        ],
+        [
+          "tpcap",
+          "tpcap",
+          "case15",
+          "Case15",
+          "0.0",
+          "0.0",
+          "-0.608460107239745",
+          "0"
+        ]
+      ]
+    },
+    "ha_main_to_h_main_failure": {
+      "historical129_count": 19,
+      "formal128_count": 19,
+      "same_exact_members": true,
+      "members_formal": [
+        [
+          "diagonal",
+          "diagonal",
+          "medium",
+          "diagonal_60",
+          "-8.0",
+          "8.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "irregular",
+          "irregular",
+          "concave_notch",
+          "concave_notch",
+          "0.0",
+          "7.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "irregular",
+          "irregular",
+          "convex_hexagon",
+          "convex_hexagon",
+          "-8.0",
+          "8.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "standard",
+          "parallel",
+          "medium",
+          "",
+          "-4.0",
+          "7.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "standard",
+          "parallel",
+          "medium",
+          "",
+          "-4.0",
+          "8.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "standard",
+          "parallel",
+          "medium",
+          "",
+          "0.0",
+          "8.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "standard",
+          "parallel",
+          "wide",
+          "",
+          "-4.0",
+          "8.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "standard",
+          "parallel",
+          "wide",
+          "",
+          "-8.0",
+          "7.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "standard",
+          "parallel",
+          "wide",
+          "",
+          "-8.0",
+          "8.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "standard",
+          "parallel",
+          "wide",
+          "",
+          "0.0",
+          "7.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "standard",
+          "parallel",
+          "wide",
+          "",
+          "0.0",
+          "8.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "standard",
+          "parallel",
+          "wide",
+          "",
+          "4.0",
+          "8.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "standard",
+          "parallel",
+          "wide",
+          "",
+          "8.0",
+          "7.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "standard",
+          "parallel",
+          "wide",
+          "",
+          "8.0",
+          "8.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "standard",
+          "perpendicular",
+          "medium",
+          "",
+          "-8.0",
+          "7.5",
+          "0.0",
+          "0"
+        ],
+        [
+          "tpcap",
+          "tpcap",
+          "case01",
+          "Case1",
+          "-16.0199004975124",
+          "-13.5074626865672",
+          "0.200398553825878",
+          "0"
+        ],
+        [
+          "tpcap",
+          "tpcap",
+          "case05",
+          "Case5",
+          "-5.3731343283582",
+          "9.72636815920399",
+          "2.60578141562933",
+          "0"
+        ],
+        [
+          "tpcap",
+          "tpcap",
+          "case16",
+          "Case16",
+          "-12.6865671641791",
+          "-1.318407960199",
+          "0.0587558227157226",
+          "0"
+        ],
+        [
+          "tpcap",
+          "tpcap",
+          "case18",
+          "Case18",
+          "7.96019900497512",
+          "-0.820895522388057",
+          "-0.292805411327151",
+          "0"
+        ]
+      ]
+    }
+  }
+}

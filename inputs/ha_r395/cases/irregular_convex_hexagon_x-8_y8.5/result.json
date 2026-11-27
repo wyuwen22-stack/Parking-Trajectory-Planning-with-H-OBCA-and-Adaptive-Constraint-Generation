@@ -1,0 +1,42 @@
+{
+  "id": "irregular_convex_hexagon_x-8_y8.5",
+  "family": "irregular",
+  "started_utc": "2026-11-24T04:07:58.075563+00:00",
+  "search_status": "PATH",
+  "accepted": true,
+  "expanded": 5566,
+  "cost": 19.175533179428808,
+  "returned_states": 65,
+  "search_elapsed_s": 9.480198799999982,
+  "endpoint_pass": true,
+  "sampled_rectangle_clearance_pass": true,
+  "start_error": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "terminal_error": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "path_sha256": "c6b374fc8e1e061533a8ae877c26db25c54577a5fa68a9357eebb48137f3fbc6",
+  "baseline_search_status": "PATH",
+  "baseline_accepted": true,
+  "baseline_verification": {
+    "endpoint_pass": true,
+    "sampled_rectangle_clearance_pass": true,
+    "accepted": true,
+    "start_error": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "terminal_error": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "total_elapsed_s": 13.69329719999996
+}

@@ -1,0 +1,163 @@
+Hybrid A* 128例参数调整实验
+日期：2026-11-24
+
+新配置：inflation=1.0（5格），搜索radius与车辆Rmin均为3.95 m，轴距2.7 m。
+每例90秒搜索预算，单进程顺序执行，矩形车身与5 cm净距要求保持不变。
+没有新增启发式回退，没有运行OBCA后端，没有修改原始源文件。
+
+成功口径分开报告：找到路径；返回路径通过终点检查及原矩形采样净距/地图边界检查。
+采样复查不构成连续运动安全证书，不代表后端优化或跟踪成功。
+
+类别 | 原冻结结果找到路径 | 新配置找到路径 | 原路径同口径复查通过 | 新路径复查通过
+全部任务 | 108/128 (84.38%) | 112/128 (87.50%) | 100/128 (78.12%) | 104/128 (81.25%)
+垂直车位 | 30/30 (100.00%) | 30/30 (100.00%) | 28/30 (93.33%) | 26/30 (86.67%)
+平行车位 | 17/30 (56.67%) | 21/30 (70.00%) | 17/30 (56.67%) | 21/30 (70.00%)
+斜向车位 | 36/36 (100.00%) | 36/36 (100.00%) | 32/36 (88.89%) | 34/36 (94.44%)
+不规则障碍 | 11/12 (91.67%) | 11/12 (91.67%) | 9/12 (75.00%) | 9/12 (75.00%)
+TPCAP适配任务 | 14/20 (70.00%) | 14/20 (70.00%) | 14/20 (70.00%) | 14/20 (70.00%)
+
+搜索状态：{"PATH": 112, "SEARCH_TIMEOUT": 14, "SEARCH_EXHAUSTED": 2}
+
+执行说明：本轮包含断点续跑。前75例保留，第76例在原执行会话中断后重新启动；续跑未更改冻结参数。详见resume_20261124.json。
+
+原基准是已有冻结运行结果，本轮未重新执行原配置。所有原保存路径已用同一返回路径检查器重新检查。
+环境和运行时间不同，比较不能用来宣称速度提升；同时修改了膨胀半径和转弯半径，不能分离两者贡献。
+
+新增复查通过案例：
+parallel_tight_x0_y8.5
+parallel_medium_x-8_y7.5
+parallel_medium_x-8_y8.5
+parallel_medium_x8_y7.5
+parallel_medium_x8_y8.5
+diagonal_tight_a45_x8_y8.5
+diagonal_medium_a45_x8_y8.5
+diagonal_tight_a60_x8_y8.5
+diagonal_medium_a60_x8_y8.5
+irregular_convex_hexagon_x8_y8.5
+tpcap_case13_project_4.7x2
+
+原通过而本轮未通过案例：
+perpendicular_medium_x8_y7.5
+perpendicular_wide_x8_y7.5
+parallel_tight_x4_y7.5
+diagonal_tight_a45_x-4_y7.5
+diagonal_wide_a60_x8_y8.5
+irregular_convex_parallelogram_x8_y8.5
+tpcap_case03_project_4.7x2
+
+返回路径复查未通过的诊断：
+[
+  {
+    "id": "perpendicular_medium_x8_y7.5",
+    "node_min_clearance_m": 0.05130646856246838,
+    "sampled_min_clearance_m": 0.04978132233265017,
+    "sampled_min_map_margin_m": 0.30000000000000004,
+    "worst_sample_pose": [
+      0.9091876272849052,
+      5.930693646243102,
+      0.4177289322291571
+    ],
+    "samples": 431,
+    "note": "5cm sampled returned-path check; linear pose interpolation; no original search trace available"
+  },
+  {
+    "id": "perpendicular_medium_x8_y8.5",
+    "node_min_clearance_m": 0.05077416635764337,
+    "sampled_min_clearance_m": 0.047922440897387425,
+    "sampled_min_map_margin_m": 0.30000000000000004,
+    "worst_sample_pose": [
+      0.8749477128576864,
+      5.907784969670064,
+      0.48608195297816514
+    ],
+    "samples": 427,
+    "note": "5cm sampled returned-path check; linear pose interpolation; no original search trace available"
+  },
+  {
+    "id": "perpendicular_wide_x8_y7.5",
+    "node_min_clearance_m": 0.05131116952465659,
+    "sampled_min_clearance_m": 0.04892438295513781,
+    "sampled_min_map_margin_m": 0.093764587386165,
+    "worst_sample_pose": [
+      1.1742167232558394,
+      5.960221164064773,
+      0.3645641825840764
+    ],
+    "samples": 500,
+    "note": "5cm sampled returned-path check; linear pose interpolation; no original search trace available"
+  },
+  {
+    "id": "perpendicular_wide_x8_y8.5",
+    "node_min_clearance_m": 0.05159282208445514,
+    "sampled_min_clearance_m": 0.04790470809101698,
+    "sampled_min_map_margin_m": 0.22608726070035456,
+    "worst_sample_pose": [
+      1.134966750315188,
+      5.939068121843332,
+      0.4590770106068054
+    ],
+    "samples": 481,
+    "note": "5cm sampled returned-path check; linear pose interpolation; no original search trace available"
+  },
+  {
+    "id": "diagonal_tight_a45_x-4_y7.5",
+    "node_min_clearance_m": 0.0506348419146815,
+    "sampled_min_clearance_m": 0.04754355033495672,
+    "sampled_min_map_margin_m": 0.9694913472366788,
+    "worst_sample_pose": [
+      -0.9729447573972763,
+      4.409033328499531,
+      1.002517082757544
+    ],
+    "samples": 419,
+    "note": "5cm sampled returned-path check; linear pose interpolation; no original search trace available"
+  },
+  {
+    "id": "diagonal_wide_a60_x8_y8.5",
+    "node_min_clearance_m": 0.05087370142157378,
+    "sampled_min_clearance_m": 0.04965796226074612,
+    "sampled_min_map_margin_m": 0.4296806022131383,
+    "worst_sample_pose": [
+      0.6985535152499478,
+      4.998031283727996,
+      0.6303884581552565
+    ],
+    "samples": 349,
+    "note": "5cm sampled returned-path check; linear pose interpolation; no original search trace available"
+  },
+  {
+    "id": "irregular_convex_parallelogram_x8_y8.5",
+    "node_min_clearance_m": 0.05077416635764337,
+    "sampled_min_clearance_m": 0.047922440897387425,
+    "sampled_min_map_margin_m": 0.30000000000000004,
+    "worst_sample_pose": [
+      0.8749477128576864,
+      5.907784969670064,
+      0.48608195297816514
+    ],
+    "samples": 420,
+    "note": "5cm sampled returned-path check; linear pose interpolation; no original search trace available"
+  },
+  {
+    "id": "irregular_concave_L_x8_y8.5",
+    "node_min_clearance_m": 0.05077416635764337,
+    "sampled_min_clearance_m": 0.047922440897387425,
+    "sampled_min_map_margin_m": 0.30000000000000004,
+    "worst_sample_pose": [
+      0.8749477128576864,
+      5.907784969670064,
+      0.48608195297816514
+    ],
+    "samples": 427,
+    "note": "5cm sampled returned-path check; linear pose interpolation; no original search trace available"
+  }
+]
+
+源码与配置哈希复核：
+{
+  "checked": 26,
+  "unchanged": true,
+  "changed": []
+}
+
+逐例数据见results.csv和results.json，冻结参数见protocol.json；数值路径保存在cases目录，无轨迹图。

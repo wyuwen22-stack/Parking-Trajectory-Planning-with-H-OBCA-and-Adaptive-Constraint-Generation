@@ -1,0 +1,51 @@
+{
+  "source_time_limit_s": 90.0,
+  "source": "seeded_r395",
+  "path_sha256": "71b75ab428807a8e6056e27eaaecc4ae9babb16ea4f55020e2ab698023ef0f1c",
+  "expanded": 56,
+  "seed_returned_path_5cm_pass": true,
+  "seed_record": {
+    "id": "parallel_medium_x8_y7.5",
+    "family": "standard",
+    "started_utc": "2026-11-23T17:38:55.941910+00:00",
+    "search_status": "PATH",
+    "accepted": true,
+    "expanded": 56,
+    "cost": 13.796950742637655,
+    "returned_states": 47,
+    "search_elapsed_s": 0.1922779000014998,
+    "endpoint_pass": true,
+    "sampled_rectangle_clearance_pass": true,
+    "start_error": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "terminal_error": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "path_sha256": "71b75ab428807a8e6056e27eaaecc4ae9babb16ea4f55020e2ab698023ef0f1c",
+    "baseline_search_status": "WS_SEARCH",
+    "baseline_accepted": false,
+    "total_elapsed_s": 2.2794247999991057
+  },
+  "status": "PATH",
+  "node_min": 0.07066079303373884,
+  "linear_sampled_min": 0.07066079303373884,
+  "geometric_main": true,
+  "geometric_conditional_state": "PASS",
+  "geometric_conditional_lower": 0.005395213144653996,
+  "horizon": 40,
+  "Ts": 0.4,
+  "initial_arc_residual_before_clip": 0.742050082101024,
+  "initial_accel_max": 5.279201435711085,
+  "elapsed_seconds": 0.5418434999992314,
+  "prepared_input_sha256": "f036e9caf27a8d4e898f2ba3369f4875ffa64213e272f8bb371142603c061462",
+  "terminal_error": [
+    0.0,
+    0.0,
+    0.0
+  ]
+}

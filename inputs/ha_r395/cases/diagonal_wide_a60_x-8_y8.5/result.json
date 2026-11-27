@@ -1,0 +1,42 @@
+{
+  "id": "diagonal_wide_a60_x-8_y8.5",
+  "family": "diagonal",
+  "started_utc": "2026-11-24T04:07:17.444377+00:00",
+  "search_status": "PATH",
+  "accepted": true,
+  "expanded": 8786,
+  "cost": 18.150846903437284,
+  "returned_states": 62,
+  "search_elapsed_s": 20.259419099999946,
+  "endpoint_pass": true,
+  "sampled_rectangle_clearance_pass": true,
+  "start_error": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "terminal_error": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "path_sha256": "7e217d4d0e5c547b6de3acc012ac811c893956e6e902ada3c6048908a95f8c57",
+  "baseline_search_status": "PATH",
+  "baseline_accepted": true,
+  "baseline_verification": {
+    "endpoint_pass": true,
+    "sampled_rectangle_clearance_pass": true,
+    "accepted": true,
+    "start_error": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "terminal_error": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "total_elapsed_s": 22.86821409999999
+}

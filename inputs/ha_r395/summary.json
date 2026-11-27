@@ -1,0 +1,114 @@
+{
+  "all": {
+    "n": 128,
+    "paths": 112,
+    "accepted": 104,
+    "baseline_paths": 108,
+    "baseline_accepted": 100,
+    "statuses": {
+      "PATH": 112,
+      "SEARCH_TIMEOUT": 14,
+      "SEARCH_EXHAUSTED": 2
+    },
+    "gained": [
+      "parallel_tight_x0_y8.5",
+      "parallel_medium_x-8_y7.5",
+      "parallel_medium_x-8_y8.5",
+      "parallel_medium_x8_y7.5",
+      "parallel_medium_x8_y8.5",
+      "diagonal_tight_a45_x8_y8.5",
+      "diagonal_medium_a45_x8_y8.5",
+      "diagonal_tight_a60_x8_y8.5",
+      "diagonal_medium_a60_x8_y8.5",
+      "irregular_convex_hexagon_x8_y8.5",
+      "tpcap_case13_project_4.7x2"
+    ],
+    "lost": [
+      "perpendicular_medium_x8_y7.5",
+      "perpendicular_wide_x8_y7.5",
+      "parallel_tight_x4_y7.5",
+      "diagonal_tight_a45_x-4_y7.5",
+      "diagonal_wide_a60_x8_y8.5",
+      "irregular_convex_parallelogram_x8_y8.5",
+      "tpcap_case03_project_4.7x2"
+    ]
+  },
+  "standard": {
+    "n": 60,
+    "paths": 51,
+    "accepted": 47,
+    "baseline_paths": 47,
+    "baseline_accepted": 45,
+    "statuses": {
+      "PATH": 51,
+      "SEARCH_TIMEOUT": 9
+    },
+    "gained": [
+      "parallel_tight_x0_y8.5",
+      "parallel_medium_x-8_y7.5",
+      "parallel_medium_x-8_y8.5",
+      "parallel_medium_x8_y7.5",
+      "parallel_medium_x8_y8.5"
+    ],
+    "lost": [
+      "perpendicular_medium_x8_y7.5",
+      "perpendicular_wide_x8_y7.5",
+      "parallel_tight_x4_y7.5"
+    ]
+  },
+  "diagonal": {
+    "n": 36,
+    "paths": 36,
+    "accepted": 34,
+    "baseline_paths": 36,
+    "baseline_accepted": 32,
+    "statuses": {
+      "PATH": 36
+    },
+    "gained": [
+      "diagonal_tight_a45_x8_y8.5",
+      "diagonal_medium_a45_x8_y8.5",
+      "diagonal_tight_a60_x8_y8.5",
+      "diagonal_medium_a60_x8_y8.5"
+    ],
+    "lost": [
+      "diagonal_tight_a45_x-4_y7.5",
+      "diagonal_wide_a60_x8_y8.5"
+    ]
+  },
+  "irregular": {
+    "n": 12,
+    "paths": 11,
+    "accepted": 9,
+    "baseline_paths": 11,
+    "baseline_accepted": 9,
+    "statuses": {
+      "PATH": 11,
+      "SEARCH_EXHAUSTED": 1
+    },
+    "gained": [
+      "irregular_convex_hexagon_x8_y8.5"
+    ],
+    "lost": [
+      "irregular_convex_parallelogram_x8_y8.5"
+    ]
+  },
+  "tpcap": {
+    "n": 20,
+    "paths": 14,
+    "accepted": 14,
+    "baseline_paths": 14,
+    "baseline_accepted": 14,
+    "statuses": {
+      "PATH": 14,
+      "SEARCH_TIMEOUT": 5,
+      "SEARCH_EXHAUSTED": 1
+    },
+    "gained": [
+      "tpcap_case13_project_4.7x2"
+    ],
+    "lost": [
+      "tpcap_case03_project_4.7x2"
+    ]
+  }
+}

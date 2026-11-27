@@ -1,0 +1,42 @@
+{
+  "id": "irregular_convex_parallelogram_x8_y8.5",
+  "family": "irregular",
+  "started_utc": "2026-11-24T04:09:06.678029+00:00",
+  "search_status": "PATH",
+  "accepted": false,
+  "expanded": 451,
+  "cost": 15.040675783328648,
+  "returned_states": 52,
+  "search_elapsed_s": 1.4133070999999973,
+  "endpoint_pass": true,
+  "sampled_rectangle_clearance_pass": false,
+  "start_error": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "terminal_error": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "path_sha256": "50e732371c7341a4bb5f03ef84a79be9a41af5ffa76fd842f77840d78689cc02",
+  "baseline_search_status": "PATH",
+  "baseline_accepted": true,
+  "baseline_verification": {
+    "endpoint_pass": true,
+    "sampled_rectangle_clearance_pass": true,
+    "accepted": true,
+    "start_error": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "terminal_error": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "total_elapsed_s": 3.1493136999999933
+}

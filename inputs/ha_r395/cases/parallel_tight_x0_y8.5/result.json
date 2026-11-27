@@ -1,0 +1,27 @@
+{
+  "id": "parallel_tight_x0_y8.5",
+  "family": "standard",
+  "started_utc": "2026-11-23T17:29:54.092658+00:00",
+  "search_status": "PATH",
+  "accepted": true,
+  "expanded": 15232,
+  "cost": 15.955560782409892,
+  "returned_states": 55,
+  "search_elapsed_s": 58.365775700003724,
+  "endpoint_pass": true,
+  "sampled_rectangle_clearance_pass": true,
+  "start_error": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "terminal_error": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "path_sha256": "6b60b4c1aa6637447cf0a3ae3a5abbe24416dd0edf2cb84c6307d8a3af7d9dd0",
+  "baseline_search_status": "WS_SEARCH",
+  "baseline_accepted": false,
+  "total_elapsed_s": 61.27096500000334
+}

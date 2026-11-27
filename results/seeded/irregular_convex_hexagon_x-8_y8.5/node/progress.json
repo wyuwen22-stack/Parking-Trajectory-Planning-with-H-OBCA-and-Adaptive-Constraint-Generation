@@ -1,0 +1,106 @@
+{
+  "file": "results\\seeded\\irregular_convex_hexagon_x-8_y8.5\\input.npz",
+  "history": [
+    {
+      "round": 1,
+      "status": "Solve_Succeeded",
+      "iterations": 295,
+      "objective": 11.153529322471169,
+      "solve_seconds": 13.678868699999839,
+      "validation_seconds": 0.3612641999998232,
+      "distance_queries": 832,
+      "structure": {
+        "configuration_nodes": 49,
+        "interior_pose_constraints": 0,
+        "obstacle_pairs": 196,
+        "decision_variables": 1958,
+        "constraints": 2940
+      },
+      "samples": [],
+      "validation": {
+        "accepted": false,
+        "node_pass": true,
+        "dynamics_pass": true,
+        "terminal_pass": true,
+        "acceptance_version": "whole_body_arc_zero_terminal_v2",
+        "checks": {
+          "start": true,
+          "dynamics_residual": true,
+          "rollout_position": true,
+          "rollout_heading": true,
+          "controls": true,
+          "reference_bounds": true,
+          "goal_position": true,
+          "goal_heading": true,
+          "terminal_speed": true,
+          "whole_trajectory": false
+        },
+        "failure_items": [
+          "whole_trajectory"
+        ],
+        "saved_node_min": 0.05100001189635672,
+        "global_node_min": 0.05100001189704495,
+        "endpoint_residual_max": 2.856825886965453e-12,
+        "global_position_drift_m": 2.1167218129715852e-11,
+        "global_heading_drift_rad": 7.94830867789642e-12,
+        "start_residual_max": 6.971047064123924e-29,
+        "terminal_component_errors": [
+          0.049799997789688334,
+          0.049799998297582304,
+          0.04997999834227773
+        ],
+        "terminal_speed": 0.0,
+        "control_extrema": {
+          "speed": 1.273684955739655,
+          "accel": 0.9294782397825718,
+          "steering": 0.599596285027627,
+          "steering_delta": 0.23999999420038565
+        },
+        "reference_bounds_pass": true,
+        "curve": {
+          "state": "COLLISION",
+          "model": "constant_control_arc",
+          "certificate_label": "conditional_numerical_not_formal_fp",
+          "node_min": 0.05100001189704495,
+          "checked_min": -0.016147542643328627,
+          "certified_lower_bound": null,
+          "numerical_allowance_m": 1e-07,
+          "queries": 321,
+          "witnesses": [
+            [
+              15,
+              0.7500000000000001,
+              -0.016147542643328627,
+              "strict_interior_overlap"
+            ],
+            [
+              24,
+              0.625,
+              -0.013514121431529524,
+              "strict_interior_overlap"
+            ]
+          ],
+          "unresolved": [],
+          "suggested_samples": [
+            [
+              15,
+              0.7500000000000001,
+              -0.016147542643328627,
+              "strict_interior_overlap"
+            ],
+            [
+              24,
+              0.625,
+              -0.013514121431529524,
+              "strict_interior_overlap"
+            ]
+          ]
+        }
+      },
+      "historical_linear_sampled_swept_min": -0.0226483205358893,
+      "linear_sampled_main": false,
+      "added_samples": []
+    }
+  ],
+  "code_sha256": "64434ce600785ab8ea50b639470c01bfbec9b8f9f52016a97bb8a5da70a5db26"
+}

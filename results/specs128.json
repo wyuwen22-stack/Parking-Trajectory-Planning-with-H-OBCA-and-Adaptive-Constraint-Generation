@@ -1,0 +1,1922 @@
+[
+  {
+    "method": "h_obca",
+    "maneuver": "perpendicular",
+    "tightness": "tight",
+    "start": [
+      -8.0,
+      7.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "standard",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "",
+    "angle_deg": null
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "perpendicular",
+    "tightness": "tight",
+    "start": [
+      -8.0,
+      8.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "standard",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "",
+    "angle_deg": null
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "perpendicular",
+    "tightness": "tight",
+    "start": [
+      -4.0,
+      7.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "standard",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "",
+    "angle_deg": null
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "perpendicular",
+    "tightness": "tight",
+    "start": [
+      -4.0,
+      8.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "standard",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "",
+    "angle_deg": null
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "perpendicular",
+    "tightness": "tight",
+    "start": [
+      0.0,
+      7.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "standard",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "",
+    "angle_deg": null
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "perpendicular",
+    "tightness": "tight",
+    "start": [
+      0.0,
+      8.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "standard",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "",
+    "angle_deg": null
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "perpendicular",
+    "tightness": "tight",
+    "start": [
+      4.0,
+      7.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "standard",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "",
+    "angle_deg": null
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "perpendicular",
+    "tightness": "tight",
+    "start": [
+      4.0,
+      8.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "standard",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "",
+    "angle_deg": null
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "perpendicular",
+    "tightness": "tight",
+    "start": [
+      8.0,
+      7.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "standard",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "",
+    "angle_deg": null
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "perpendicular",
+    "tightness": "tight",
+    "start": [
+      8.0,
+      8.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "standard",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "",
+    "angle_deg": null
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "perpendicular",
+    "tightness": "medium",
+    "start": [
+      -8.0,
+      7.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "standard",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "",
+    "angle_deg": null
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "perpendicular",
+    "tightness": "medium",
+    "start": [
+      -8.0,
+      8.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "standard",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "",
+    "angle_deg": null
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "perpendicular",
+    "tightness": "medium",
+    "start": [
+      -4.0,
+      7.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "standard",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "",
+    "angle_deg": null
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "perpendicular",
+    "tightness": "medium",
+    "start": [
+      -4.0,
+      8.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "standard",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "",
+    "angle_deg": null
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "perpendicular",
+    "tightness": "medium",
+    "start": [
+      0.0,
+      7.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "standard",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "",
+    "angle_deg": null
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "perpendicular",
+    "tightness": "medium",
+    "start": [
+      0.0,
+      8.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "standard",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "",
+    "angle_deg": null
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "perpendicular",
+    "tightness": "medium",
+    "start": [
+      4.0,
+      7.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "standard",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "",
+    "angle_deg": null
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "perpendicular",
+    "tightness": "medium",
+    "start": [
+      4.0,
+      8.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "standard",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "",
+    "angle_deg": null
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "perpendicular",
+    "tightness": "medium",
+    "start": [
+      8.0,
+      7.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "standard",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "",
+    "angle_deg": null
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "perpendicular",
+    "tightness": "medium",
+    "start": [
+      8.0,
+      8.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "standard",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "",
+    "angle_deg": null
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "perpendicular",
+    "tightness": "wide",
+    "start": [
+      -8.0,
+      7.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "standard",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "",
+    "angle_deg": null
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "perpendicular",
+    "tightness": "wide",
+    "start": [
+      -8.0,
+      8.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "standard",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "",
+    "angle_deg": null
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "perpendicular",
+    "tightness": "wide",
+    "start": [
+      -4.0,
+      7.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "standard",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "",
+    "angle_deg": null
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "perpendicular",
+    "tightness": "wide",
+    "start": [
+      -4.0,
+      8.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "standard",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "",
+    "angle_deg": null
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "perpendicular",
+    "tightness": "wide",
+    "start": [
+      0.0,
+      7.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "standard",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "",
+    "angle_deg": null
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "perpendicular",
+    "tightness": "wide",
+    "start": [
+      0.0,
+      8.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "standard",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "",
+    "angle_deg": null
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "perpendicular",
+    "tightness": "wide",
+    "start": [
+      4.0,
+      7.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "standard",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "",
+    "angle_deg": null
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "perpendicular",
+    "tightness": "wide",
+    "start": [
+      4.0,
+      8.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "standard",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "",
+    "angle_deg": null
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "perpendicular",
+    "tightness": "wide",
+    "start": [
+      8.0,
+      7.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "standard",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "",
+    "angle_deg": null
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "perpendicular",
+    "tightness": "wide",
+    "start": [
+      8.0,
+      8.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "standard",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "",
+    "angle_deg": null
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "parallel",
+    "tightness": "tight",
+    "start": [
+      -8.0,
+      7.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "standard",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "",
+    "angle_deg": null
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "parallel",
+    "tightness": "tight",
+    "start": [
+      -8.0,
+      8.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "standard",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "",
+    "angle_deg": null
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "parallel",
+    "tightness": "tight",
+    "start": [
+      -4.0,
+      7.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "standard",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "",
+    "angle_deg": null
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "parallel",
+    "tightness": "tight",
+    "start": [
+      -4.0,
+      8.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "standard",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "",
+    "angle_deg": null
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "parallel",
+    "tightness": "tight",
+    "start": [
+      0.0,
+      7.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "standard",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "",
+    "angle_deg": null
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "parallel",
+    "tightness": "tight",
+    "start": [
+      0.0,
+      8.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "standard",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "",
+    "angle_deg": null
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "parallel",
+    "tightness": "tight",
+    "start": [
+      4.0,
+      7.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "standard",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "",
+    "angle_deg": null
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "parallel",
+    "tightness": "tight",
+    "start": [
+      4.0,
+      8.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "standard",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "",
+    "angle_deg": null
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "parallel",
+    "tightness": "tight",
+    "start": [
+      8.0,
+      7.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "standard",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "",
+    "angle_deg": null
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "parallel",
+    "tightness": "tight",
+    "start": [
+      8.0,
+      8.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "standard",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "",
+    "angle_deg": null
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "parallel",
+    "tightness": "medium",
+    "start": [
+      -8.0,
+      7.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "standard",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "",
+    "angle_deg": null
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "parallel",
+    "tightness": "medium",
+    "start": [
+      -8.0,
+      8.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "standard",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "",
+    "angle_deg": null
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "parallel",
+    "tightness": "medium",
+    "start": [
+      -4.0,
+      7.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "standard",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "",
+    "angle_deg": null
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "parallel",
+    "tightness": "medium",
+    "start": [
+      -4.0,
+      8.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "standard",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "",
+    "angle_deg": null
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "parallel",
+    "tightness": "medium",
+    "start": [
+      0.0,
+      7.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "standard",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "",
+    "angle_deg": null
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "parallel",
+    "tightness": "medium",
+    "start": [
+      0.0,
+      8.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "standard",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "",
+    "angle_deg": null
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "parallel",
+    "tightness": "medium",
+    "start": [
+      4.0,
+      7.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "standard",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "",
+    "angle_deg": null
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "parallel",
+    "tightness": "medium",
+    "start": [
+      4.0,
+      8.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "standard",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "",
+    "angle_deg": null
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "parallel",
+    "tightness": "medium",
+    "start": [
+      8.0,
+      7.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "standard",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "",
+    "angle_deg": null
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "parallel",
+    "tightness": "medium",
+    "start": [
+      8.0,
+      8.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "standard",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "",
+    "angle_deg": null
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "parallel",
+    "tightness": "wide",
+    "start": [
+      -8.0,
+      7.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "standard",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "",
+    "angle_deg": null
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "parallel",
+    "tightness": "wide",
+    "start": [
+      -8.0,
+      8.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "standard",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "",
+    "angle_deg": null
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "parallel",
+    "tightness": "wide",
+    "start": [
+      -4.0,
+      7.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "standard",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "",
+    "angle_deg": null
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "parallel",
+    "tightness": "wide",
+    "start": [
+      -4.0,
+      8.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "standard",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "",
+    "angle_deg": null
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "parallel",
+    "tightness": "wide",
+    "start": [
+      0.0,
+      7.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "standard",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "",
+    "angle_deg": null
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "parallel",
+    "tightness": "wide",
+    "start": [
+      0.0,
+      8.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "standard",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "",
+    "angle_deg": null
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "parallel",
+    "tightness": "wide",
+    "start": [
+      4.0,
+      7.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "standard",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "",
+    "angle_deg": null
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "parallel",
+    "tightness": "wide",
+    "start": [
+      4.0,
+      8.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "standard",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "",
+    "angle_deg": null
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "parallel",
+    "tightness": "wide",
+    "start": [
+      8.0,
+      7.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "standard",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "",
+    "angle_deg": null
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "parallel",
+    "tightness": "wide",
+    "start": [
+      8.0,
+      8.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "standard",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "",
+    "angle_deg": null
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "diagonal",
+    "tightness": "tight",
+    "start": [
+      -8.0,
+      8.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "diagonal",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "diagonal_30",
+    "angle_deg": 30.0
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "diagonal",
+    "tightness": "tight",
+    "start": [
+      -4.0,
+      7.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "diagonal",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "diagonal_30",
+    "angle_deg": 30.0
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "diagonal",
+    "tightness": "tight",
+    "start": [
+      4.0,
+      7.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "diagonal",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "diagonal_30",
+    "angle_deg": 30.0
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "diagonal",
+    "tightness": "tight",
+    "start": [
+      8.0,
+      8.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "diagonal",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "diagonal_30",
+    "angle_deg": 30.0
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "diagonal",
+    "tightness": "medium",
+    "start": [
+      -8.0,
+      8.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "diagonal",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "diagonal_30",
+    "angle_deg": 30.0
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "diagonal",
+    "tightness": "medium",
+    "start": [
+      -4.0,
+      7.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "diagonal",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "diagonal_30",
+    "angle_deg": 30.0
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "diagonal",
+    "tightness": "medium",
+    "start": [
+      4.0,
+      7.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "diagonal",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "diagonal_30",
+    "angle_deg": 30.0
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "diagonal",
+    "tightness": "medium",
+    "start": [
+      8.0,
+      8.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "diagonal",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "diagonal_30",
+    "angle_deg": 30.0
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "diagonal",
+    "tightness": "wide",
+    "start": [
+      -8.0,
+      8.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "diagonal",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "diagonal_30",
+    "angle_deg": 30.0
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "diagonal",
+    "tightness": "wide",
+    "start": [
+      -4.0,
+      7.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "diagonal",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "diagonal_30",
+    "angle_deg": 30.0
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "diagonal",
+    "tightness": "wide",
+    "start": [
+      4.0,
+      7.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "diagonal",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "diagonal_30",
+    "angle_deg": 30.0
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "diagonal",
+    "tightness": "wide",
+    "start": [
+      8.0,
+      8.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "diagonal",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "diagonal_30",
+    "angle_deg": 30.0
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "diagonal",
+    "tightness": "tight",
+    "start": [
+      -8.0,
+      8.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "diagonal",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "diagonal_45",
+    "angle_deg": 45.0
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "diagonal",
+    "tightness": "tight",
+    "start": [
+      -4.0,
+      7.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "diagonal",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "diagonal_45",
+    "angle_deg": 45.0
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "diagonal",
+    "tightness": "tight",
+    "start": [
+      4.0,
+      7.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "diagonal",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "diagonal_45",
+    "angle_deg": 45.0
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "diagonal",
+    "tightness": "tight",
+    "start": [
+      8.0,
+      8.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "diagonal",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "diagonal_45",
+    "angle_deg": 45.0
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "diagonal",
+    "tightness": "medium",
+    "start": [
+      -8.0,
+      8.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "diagonal",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "diagonal_45",
+    "angle_deg": 45.0
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "diagonal",
+    "tightness": "medium",
+    "start": [
+      -4.0,
+      7.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "diagonal",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "diagonal_45",
+    "angle_deg": 45.0
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "diagonal",
+    "tightness": "medium",
+    "start": [
+      4.0,
+      7.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "diagonal",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "diagonal_45",
+    "angle_deg": 45.0
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "diagonal",
+    "tightness": "medium",
+    "start": [
+      8.0,
+      8.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "diagonal",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "diagonal_45",
+    "angle_deg": 45.0
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "diagonal",
+    "tightness": "wide",
+    "start": [
+      -8.0,
+      8.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "diagonal",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "diagonal_45",
+    "angle_deg": 45.0
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "diagonal",
+    "tightness": "wide",
+    "start": [
+      -4.0,
+      7.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "diagonal",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "diagonal_45",
+    "angle_deg": 45.0
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "diagonal",
+    "tightness": "wide",
+    "start": [
+      4.0,
+      7.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "diagonal",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "diagonal_45",
+    "angle_deg": 45.0
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "diagonal",
+    "tightness": "wide",
+    "start": [
+      8.0,
+      8.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "diagonal",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "diagonal_45",
+    "angle_deg": 45.0
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "diagonal",
+    "tightness": "tight",
+    "start": [
+      -8.0,
+      8.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "diagonal",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "diagonal_60",
+    "angle_deg": 60.0
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "diagonal",
+    "tightness": "tight",
+    "start": [
+      -4.0,
+      7.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "diagonal",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "diagonal_60",
+    "angle_deg": 60.0
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "diagonal",
+    "tightness": "tight",
+    "start": [
+      4.0,
+      7.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "diagonal",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "diagonal_60",
+    "angle_deg": 60.0
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "diagonal",
+    "tightness": "tight",
+    "start": [
+      8.0,
+      8.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "diagonal",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "diagonal_60",
+    "angle_deg": 60.0
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "diagonal",
+    "tightness": "medium",
+    "start": [
+      -8.0,
+      8.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "diagonal",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "diagonal_60",
+    "angle_deg": 60.0
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "diagonal",
+    "tightness": "medium",
+    "start": [
+      -4.0,
+      7.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "diagonal",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "diagonal_60",
+    "angle_deg": 60.0
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "diagonal",
+    "tightness": "medium",
+    "start": [
+      4.0,
+      7.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "diagonal",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "diagonal_60",
+    "angle_deg": 60.0
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "diagonal",
+    "tightness": "medium",
+    "start": [
+      8.0,
+      8.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "diagonal",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "diagonal_60",
+    "angle_deg": 60.0
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "diagonal",
+    "tightness": "wide",
+    "start": [
+      -8.0,
+      8.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "diagonal",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "diagonal_60",
+    "angle_deg": 60.0
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "diagonal",
+    "tightness": "wide",
+    "start": [
+      -4.0,
+      7.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "diagonal",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "diagonal_60",
+    "angle_deg": 60.0
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "diagonal",
+    "tightness": "wide",
+    "start": [
+      4.0,
+      7.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "diagonal",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "diagonal_60",
+    "angle_deg": 60.0
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "diagonal",
+    "tightness": "wide",
+    "start": [
+      8.0,
+      8.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "diagonal",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "diagonal_60",
+    "angle_deg": 60.0
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "irregular",
+    "tightness": "convex_hexagon",
+    "start": [
+      -8.0,
+      8.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "irregular",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "convex_hexagon",
+    "angle_deg": null
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "irregular",
+    "tightness": "convex_hexagon",
+    "start": [
+      0.0,
+      7.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "irregular",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "convex_hexagon",
+    "angle_deg": null
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "irregular",
+    "tightness": "convex_hexagon",
+    "start": [
+      8.0,
+      8.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "irregular",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "convex_hexagon",
+    "angle_deg": null
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "irregular",
+    "tightness": "convex_parallelogram",
+    "start": [
+      -8.0,
+      8.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "irregular",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "convex_parallelogram",
+    "angle_deg": null
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "irregular",
+    "tightness": "convex_parallelogram",
+    "start": [
+      0.0,
+      7.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "irregular",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "convex_parallelogram",
+    "angle_deg": null
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "irregular",
+    "tightness": "convex_parallelogram",
+    "start": [
+      8.0,
+      8.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "irregular",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "convex_parallelogram",
+    "angle_deg": null
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "irregular",
+    "tightness": "concave_L",
+    "start": [
+      -8.0,
+      8.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "irregular",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "concave_L",
+    "angle_deg": null
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "irregular",
+    "tightness": "concave_L",
+    "start": [
+      0.0,
+      7.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "irregular",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "concave_L",
+    "angle_deg": null
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "irregular",
+    "tightness": "concave_L",
+    "start": [
+      8.0,
+      8.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "irregular",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "concave_L",
+    "angle_deg": null
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "irregular",
+    "tightness": "concave_notch",
+    "start": [
+      -8.0,
+      8.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "irregular",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "concave_notch",
+    "angle_deg": null
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "irregular",
+    "tightness": "concave_notch",
+    "start": [
+      0.0,
+      7.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "irregular",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "concave_notch",
+    "angle_deg": null
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "irregular",
+    "tightness": "concave_notch",
+    "start": [
+      8.0,
+      8.5,
+      0.0
+    ],
+    "is_regression": false,
+    "family": "irregular",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "concave_notch",
+    "angle_deg": null
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "tpcap",
+    "tightness": "case01",
+    "start": [
+      -16.0199004975124,
+      -13.5074626865672,
+      0.200398553825878
+    ],
+    "is_regression": false,
+    "family": "tpcap",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "Case1",
+    "angle_deg": null
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "tpcap",
+    "tightness": "case02",
+    "start": [
+      -8.85572139303482,
+      0.621890547263682,
+      -0.98971402799757
+    ],
+    "is_regression": false,
+    "family": "tpcap",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "Case2",
+    "angle_deg": null
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "tpcap",
+    "tightness": "case03",
+    "start": [
+      -3.88059701492537,
+      -2.2636815920398,
+      -0.912370953011526
+    ],
+    "is_regression": false,
+    "family": "tpcap",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "Case3",
+    "angle_deg": null
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "tpcap",
+    "tightness": "case04",
+    "start": [
+      11.2437810945274,
+      6.14427860696518,
+      -1.70786250110508
+    ],
+    "is_regression": false,
+    "family": "tpcap",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "Case4",
+    "angle_deg": null
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "tpcap",
+    "tightness": "case05",
+    "start": [
+      -5.3731343283582,
+      9.72636815920399,
+      2.60578141562933
+    ],
+    "is_regression": false,
+    "family": "tpcap",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "Case5",
+    "angle_deg": null
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "tpcap",
+    "tightness": "case06",
+    "start": [
+      -4.17910447761194,
+      -2.16417910447761,
+      1.72739820377691
+    ],
+    "is_regression": false,
+    "family": "tpcap",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "Case6",
+    "angle_deg": null
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "tpcap",
+    "tightness": "case07",
+    "start": [
+      -11.2935323383085,
+      1.06965174129354,
+      1.01580059945631
+    ],
+    "is_regression": false,
+    "family": "tpcap",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "Case7",
+    "angle_deg": null
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "tpcap",
+    "tightness": "case08",
+    "start": [
+      -13.3333333333333,
+      2.36318407960199,
+      -0.242208587109621
+    ],
+    "is_regression": false,
+    "family": "tpcap",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "Case8",
+    "angle_deg": null
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "tpcap",
+    "tightness": "case09",
+    "start": [
+      15.3731343283582,
+      -3.70646766169154,
+      0.495551673485828
+    ],
+    "is_regression": false,
+    "family": "tpcap",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "Case9",
+    "angle_deg": null
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "tpcap",
+    "tightness": "case10",
+    "start": [
+      1.17953879144713,
+      5.65298514028592,
+      -3.97310641762305
+    ],
+    "is_regression": false,
+    "family": "tpcap",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "Case10",
+    "angle_deg": null
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "tpcap",
+    "tightness": "case11",
+    "start": [
+      0.430909369305542,
+      13.0066127754093,
+      -3.38516620278725
+    ],
+    "is_regression": false,
+    "family": "tpcap",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "Case11",
+    "angle_deg": null
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "tpcap",
+    "tightness": "case12",
+    "start": [
+      14.1500053800437,
+      15.1672348741372,
+      -5.1209851558802
+    ],
+    "is_regression": false,
+    "family": "tpcap",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "Case12",
+    "angle_deg": null
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "tpcap",
+    "tightness": "case13",
+    "start": [
+      0.0,
+      0.0,
+      1.45836919596471
+    ],
+    "is_regression": false,
+    "family": "tpcap",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "Case13",
+    "angle_deg": null
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "tpcap",
+    "tightness": "case14",
+    "start": [
+      0.0,
+      0.0,
+      -0.713358098010621
+    ],
+    "is_regression": false,
+    "family": "tpcap",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "Case14",
+    "angle_deg": null
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "tpcap",
+    "tightness": "case15",
+    "start": [
+      0.0,
+      0.0,
+      -0.608460107239745
+    ],
+    "is_regression": false,
+    "family": "tpcap",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "Case15",
+    "angle_deg": null
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "tpcap",
+    "tightness": "case16",
+    "start": [
+      -12.6865671641791,
+      -1.318407960199,
+      0.0587558227157226
+    ],
+    "is_regression": false,
+    "family": "tpcap",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "Case16",
+    "angle_deg": null
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "tpcap",
+    "tightness": "case17",
+    "start": [
+      -5.22388059701493,
+      8.58208955223881,
+      -2.65764326572977
+    ],
+    "is_regression": false,
+    "family": "tpcap",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "Case17",
+    "angle_deg": null
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "tpcap",
+    "tightness": "case18",
+    "start": [
+      7.96019900497512,
+      -0.820895522388057,
+      -0.292805411327151
+    ],
+    "is_regression": false,
+    "family": "tpcap",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "Case18",
+    "angle_deg": null
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "tpcap",
+    "tightness": "case19",
+    "start": [
+      -19.6068546105738,
+      -3.37405083638875,
+      3.13250199492473
+    ],
+    "is_regression": false,
+    "family": "tpcap",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "Case19",
+    "angle_deg": null
+  },
+  {
+    "method": "h_obca",
+    "maneuver": "tpcap",
+    "tightness": "case20",
+    "start": [
+      -13.2676966615179,
+      -4.79485269561022,
+      -4.09787534962987
+    ],
+    "is_regression": false,
+    "family": "tpcap",
+    "vehicle_name": "project_4.7x2",
+    "scene_name": "Case20",
+    "angle_deg": null
+  }
+]

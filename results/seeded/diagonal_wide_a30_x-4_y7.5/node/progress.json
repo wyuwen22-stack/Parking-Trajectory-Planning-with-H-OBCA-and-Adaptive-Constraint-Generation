@@ -1,0 +1,78 @@
+{
+  "file": "results\\seeded\\diagonal_wide_a30_x-4_y7.5\\input.npz",
+  "history": [
+    {
+      "round": 1,
+      "status": "Solve_Succeeded",
+      "iterations": 20,
+      "objective": 7.494190878531885,
+      "solve_seconds": 0.9739218000004257,
+      "validation_seconds": 0.12983880000047066,
+      "distance_queries": 481,
+      "structure": {
+        "configuration_nodes": 41,
+        "interior_pose_constraints": 0,
+        "obstacle_pairs": 123,
+        "decision_variables": 1187,
+        "constraints": 1845
+      },
+      "samples": [],
+      "validation": {
+        "accepted": true,
+        "node_pass": true,
+        "dynamics_pass": true,
+        "terminal_pass": true,
+        "acceptance_version": "whole_body_arc_zero_terminal_v2",
+        "checks": {
+          "start": true,
+          "dynamics_residual": true,
+          "rollout_position": true,
+          "rollout_heading": true,
+          "controls": true,
+          "reference_bounds": true,
+          "goal_position": true,
+          "goal_heading": true,
+          "terminal_speed": true,
+          "whole_trajectory": true
+        },
+        "failure_items": [],
+        "saved_node_min": 0.3161515650803253,
+        "global_node_min": 0.3161515650292314,
+        "endpoint_residual_max": 2.5994234542636718e-11,
+        "global_position_drift_m": 1.2077559646780808e-10,
+        "global_heading_drift_rad": 2.7977176131344095e-11,
+        "start_residual_max": 4.959947077801599e-32,
+        "terminal_component_errors": [
+          0.04979999849640526,
+          0.04979999849585548,
+          0.04997999960639077
+        ],
+        "terminal_speed": -1.6653345369377348e-16,
+        "control_extrema": {
+          "speed": 0.9700619614200787,
+          "accel": 0.6751312961349,
+          "steering": 0.5995962832983651,
+          "steering_delta": 0.23999999147144485
+        },
+        "reference_bounds_pass": true,
+        "curve": {
+          "state": "PASS",
+          "model": "constant_control_arc",
+          "certificate_label": "conditional_numerical_not_formal_fp",
+          "node_min": 0.3161515650292314,
+          "checked_min": 0.3161515650292314,
+          "certified_lower_bound": 0.03198056524459919,
+          "numerical_allowance_m": 1e-07,
+          "queries": 121,
+          "witnesses": [],
+          "unresolved": [],
+          "suggested_samples": []
+        }
+      },
+      "historical_linear_sampled_swept_min": 0.3144208153884135,
+      "linear_sampled_main": true,
+      "added_samples": []
+    }
+  ],
+  "code_sha256": "64434ce600785ab8ea50b639470c01bfbec9b8f9f52016a97bb8a5da70a5db26"
+}

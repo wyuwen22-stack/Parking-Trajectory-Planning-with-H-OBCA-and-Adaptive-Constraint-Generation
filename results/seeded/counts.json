@@ -1,0 +1,41 @@
+{
+  "node": {
+    "completed": 128,
+    "formal_denominator": 128,
+    "node": 108,
+    "linear_sampled_main": 84,
+    "linear_double005": 49,
+    "conditional_arc_accept": 84,
+    "states": {
+      "NOT_ACCEPTED": 44,
+      "PASS_CONDITIONAL_NUMERICAL": 84
+    },
+    "min_conditional_lower": 6.7996625202377705e-06
+  },
+  "dense": {
+    "completed": 128,
+    "formal_denominator": 128,
+    "node": 91,
+    "linear_sampled_main": 89,
+    "linear_double005": 56,
+    "conditional_arc_accept": 89,
+    "states": {
+      "NOT_ACCEPTED": 39,
+      "PASS_CONDITIONAL_NUMERICAL": 89
+    },
+    "min_conditional_lower": 6.57943517757702e-06
+  },
+  "adaptive": {
+    "completed": 128,
+    "formal_denominator": 128,
+    "node": 100,
+    "linear_sampled_main": 99,
+    "linear_double005": 55,
+    "conditional_arc_accept": 98,
+    "states": {
+      "NOT_ACCEPTED": 30,
+      "PASS_CONDITIONAL_NUMERICAL": 98
+    },
+    "min_conditional_lower": 6.834707470318546e-06
+  }
+}

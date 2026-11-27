@@ -1,0 +1,242 @@
+{
+  "round": 2,
+  "status": "Solve_Succeeded",
+  "iterations": 29,
+  "objective": 7.947789214225161,
+  "solve_seconds": 3.1032111999993504,
+  "validation_seconds": 0.18176340000081836,
+  "distance_queries": 550,
+  "structure": {
+    "configuration_nodes": 41,
+    "interior_pose_constraints": 41,
+    "obstacle_pairs": 328,
+    "decision_variables": 2868,
+    "constraints": 4346
+  },
+  "samples": [
+    [
+      0,
+      0.5
+    ],
+    [
+      1,
+      0.5
+    ],
+    [
+      2,
+      0.5
+    ],
+    [
+      3,
+      0.5
+    ],
+    [
+      4,
+      0.5
+    ],
+    [
+      5,
+      0.5
+    ],
+    [
+      6,
+      0.5
+    ],
+    [
+      7,
+      0.5
+    ],
+    [
+      8,
+      0.5
+    ],
+    [
+      9,
+      0.5
+    ],
+    [
+      10,
+      0.5
+    ],
+    [
+      11,
+      0.5
+    ],
+    [
+      12,
+      0.5
+    ],
+    [
+      13,
+      0.5
+    ],
+    [
+      14,
+      0.5
+    ],
+    [
+      15,
+      0.5
+    ],
+    [
+      16,
+      0.5
+    ],
+    [
+      17,
+      0.5
+    ],
+    [
+      18,
+      0.5
+    ],
+    [
+      19,
+      0.5
+    ],
+    [
+      20,
+      0.5
+    ],
+    [
+      21,
+      0.5
+    ],
+    [
+      22,
+      0.5
+    ],
+    [
+      23,
+      0.5
+    ],
+    [
+      24,
+      0.5
+    ],
+    [
+      25,
+      0.5
+    ],
+    [
+      26,
+      0.5
+    ],
+    [
+      27,
+      0.5
+    ],
+    [
+      28,
+      0.5
+    ],
+    [
+      29,
+      0.5
+    ],
+    [
+      30,
+      0.5
+    ],
+    [
+      30,
+      0.75
+    ],
+    [
+      31,
+      0.5
+    ],
+    [
+      32,
+      0.5
+    ],
+    [
+      33,
+      0.5
+    ],
+    [
+      34,
+      0.5
+    ],
+    [
+      35,
+      0.5
+    ],
+    [
+      36,
+      0.5
+    ],
+    [
+      37,
+      0.5
+    ],
+    [
+      38,
+      0.5
+    ],
+    [
+      39,
+      0.5
+    ]
+  ],
+  "validation": {
+    "accepted": true,
+    "node_pass": true,
+    "dynamics_pass": true,
+    "terminal_pass": true,
+    "acceptance_version": "whole_body_arc_zero_terminal_v2",
+    "checks": {
+      "start": true,
+      "dynamics_residual": true,
+      "rollout_position": true,
+      "rollout_heading": true,
+      "controls": true,
+      "reference_bounds": true,
+      "goal_position": true,
+      "goal_heading": true,
+      "terminal_speed": true,
+      "whole_trajectory": true
+    },
+    "failure_items": [],
+    "saved_node_min": 0.14106465630815634,
+    "global_node_min": 0.14106465630256482,
+    "endpoint_residual_max": 3.528177749956285e-12,
+    "global_position_drift_m": 7.677239250704642e-12,
+    "global_heading_drift_rad": 2.3613333510752454e-12,
+    "start_residual_max": 1.6159778882106502e-35,
+    "terminal_component_errors": [
+      0.04979999865725304,
+      0.04979999937324653,
+      0.04997999986205646
+    ],
+    "terminal_speed": -8.326672684688674e-17,
+    "control_extrema": {
+      "speed": 1.260023091725349,
+      "accel": 0.833379393707214,
+      "steering": 0.5995962861784141,
+      "steering_delta": 0.23999999794893578
+    },
+    "reference_bounds_pass": true,
+    "curve": {
+      "state": "PASS",
+      "model": "constant_control_arc",
+      "certificate_label": "conditional_numerical_not_formal_fp",
+      "node_min": 0.14106465630256482,
+      "checked_min": 0.0019187407662873105,
+      "certified_lower_bound": 1.1902545736357252e-05,
+      "numerical_allowance_m": 1e-07,
+      "queries": 174,
+      "witnesses": [],
+      "unresolved": [],
+      "suggested_samples": []
+    }
+  },
+  "historical_linear_sampled_swept_min": 0.0100047406143422,
+  "linear_sampled_main": true,
+  "added_samples": [
+    [
+      30,
+      0.75
+    ]
+  ]
+}

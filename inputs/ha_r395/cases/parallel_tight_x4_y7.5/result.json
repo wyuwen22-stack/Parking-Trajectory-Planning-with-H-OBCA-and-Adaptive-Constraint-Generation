@@ -1,0 +1,29 @@
+{
+  "id": "parallel_tight_x4_y7.5",
+  "family": "standard",
+  "started_utc": "2026-11-23T17:30:55.369488+00:00",
+  "search_status": "SEARCH_TIMEOUT",
+  "accepted": false,
+  "expanded": null,
+  "error": "Hybrid A* stopped at the resource time cap after 21077 expansions",
+  "error_type": "RuntimeError",
+  "search_elapsed_s": 90.0175478999954,
+  "baseline_search_status": "PATH",
+  "baseline_accepted": true,
+  "baseline_verification": {
+    "endpoint_pass": true,
+    "sampled_rectangle_clearance_pass": true,
+    "accepted": true,
+    "start_error": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "terminal_error": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "total_elapsed_s": 92.85228749999806
+}

@@ -1,0 +1,42 @@
+{
+  "id": "perpendicular_wide_x-4_y8.5",
+  "family": "standard",
+  "started_utc": "2026-11-23T17:21:46.961457+00:00",
+  "search_status": "PATH",
+  "accepted": true,
+  "expanded": 4041,
+  "cost": 16.412634745721412,
+  "returned_states": 56,
+  "search_elapsed_s": 8.140335800002504,
+  "endpoint_pass": true,
+  "sampled_rectangle_clearance_pass": true,
+  "start_error": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "terminal_error": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "path_sha256": "46ae240db5cadd72591cf0820b3fe2513e9a98f7aa6c8ba392b52250a948b7d2",
+  "baseline_search_status": "PATH",
+  "baseline_accepted": true,
+  "baseline_verification": {
+    "endpoint_pass": true,
+    "sampled_rectangle_clearance_pass": true,
+    "accepted": true,
+    "start_error": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "terminal_error": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "total_elapsed_s": 13.003731299999345
+}
