@@ -1,0 +1,58 @@
+{
+  "corpus_size": 128,
+  "selected_failures": 24,
+  "no_path_failures": 16,
+  "returned_margin_failures": 8,
+  "returned_paths": 22,
+  "raw_arc_interval_pass": 22,
+  "primary_accepted": 17,
+  "export_audit_cases": 5,
+  "export_audit_pass": 5,
+  "accepted_after_export_correction": 22,
+  "unresolved": [
+    "tpcap_case07_project_4.7x2",
+    "irregular_concave_notch_x8_y8.5"
+  ],
+  "remaining_failures_after_unlimited": 20,
+  "new_primary_recoveries_after_unlimited": 13,
+  "new_corrected_recoveries_after_unlimited": 18,
+  "historical_sampled_ledger": {
+    "baseline_90s": 104,
+    "baseline_unlimited": 108,
+    "with_reverse": 121,
+    "with_reverse_and_export": 126,
+    "scope": "historical returned-path sampled criterion; not a full-corpus continuous certificate"
+  },
+  "groups": {
+    "Parallel parking": {
+      "cases": 9,
+      "returned": 9,
+      "primary": 9,
+      "corrected": 9
+    },
+    "Perpendicular parking": {
+      "cases": 4,
+      "returned": 4,
+      "primary": 2,
+      "corrected": 4
+    },
+    "Angled parking": {
+      "cases": 2,
+      "returned": 2,
+      "primary": 2,
+      "corrected": 2
+    },
+    "Irregular obstacles": {
+      "cases": 3,
+      "returned": 2,
+      "primary": 0,
+      "corrected": 2
+    },
+    "Adapted TPCAP": {
+      "cases": 6,
+      "returned": 5,
+      "primary": 4,
+      "corrected": 5
+    }
+  }
+}

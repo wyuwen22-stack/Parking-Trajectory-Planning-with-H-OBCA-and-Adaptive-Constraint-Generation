@@ -1,0 +1,17 @@
+{
+  "repository_name": "adaptive-obca-parking",
+  "source_zip_sha256": "bda59b186401c04bd6a48508de3ba33a50ab0185d08bec7c45fc1bffe3998d05",
+  "unchanged_code_configuration_input_and_result_files": 2624,
+  "cases": 128,
+  "method_records": 384,
+  "accepted": {
+    "node": 84,
+    "dense": 89,
+    "adaptive": 98
+  },
+  "local_links_checked": 54,
+  "planning_rerun": false,
+  "unit_tests_rerun": false,
+  "contents": "Audited code/results plus current README, academic affiliation, figures, animation, atlas and HA study documentation.",
+  "license": "Existing MIT license scope retained; author name updated to Yuwen Wang; third-party exclusions preserved."
+}

@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+.ven/
+.pytest_cache/
+*.egg-info/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# OS and editor
+.DS_Store
+Thumbs.db
+.idea/
+*.swp
+*~
+
+# Local reruns and exports. Bundled results/ remains tracked.
+exports/
+*.tmp
+results_other/
+results_fresh/
+results_single/

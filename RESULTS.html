@@ -1,0 +1,37 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Frozen backend benchmark (v2)</title><style>body{margin:0;background:#f3f5f7;color:#243447;font:16px/1.7 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}main{max-width:960px;margin:28px auto;background:white;padding:42px 48px;border:1px solid #e1e6ec;border-radius:10px}h1{font-size:32px;line-height:1.23;color:#122c44;margin-top:0}h2{font-size:23px;margin-top:38px;border-bottom:1px solid #e5eaf0;padding-bottom:8px}h3{font-size:19px}a{color:#156ba1;text-underline-offset:3px}img{display:block;width:100%;height:auto;margin:20px auto}code{font:0.88em/1.5 Consolas,monospace;background:#eff3f7;padding:2px 5px;border-radius:3px}pre{background:#152c40;color:#e9f0f6;padding:18px;overflow:auto;border-radius:6px}pre code{background:none;color:inherit;padding:0}.table-wrap{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:14px;line-height:1.5}th,td{border:1px solid #dce3ea;padding:10px 12px;text-align:left;vertical-align:top}th{background:#edf3f8;color:#183e5c}tr:nth-child(even){background:#f8fafc}li{margin:8px 0}nav{font-size:14px;margin-bottom:22px}@media(max-width:700px){main{margin:0;border:0;border-radius:0;padding:24px 18px}h1{font-size:27px}h2{font-size:21px}table{min-width:550px}}@media print{body{background:white}main{margin:0;max-width:none;border:0;padding:0}h2{break-after:avoid}img,table,pre{break-inside:avoid}a{color:inherit}nav{display:none}}</style></head><body><main><h1>Frozen backend benchmark (v2)</h1>
+<p>All three methods use the same 112 historical HA seeds. The 16 cases without a seed remain in the 128-case denominator. Acceptance requires every check in the declared contract to pass. The later HA recovery study does not change this result snapshot.</p>
+<div class="table-wrap"><table><thead><tr><th>Family</th><th>Cases</th><th>Node-only</th><th>Fixed interior</th><th>Adaptive</th></tr></thead><tbody>
+<tr><td>Parallel and perpendicular</td><td>60</td><td>34/60 (56.67%)</td><td>38/60 (63.33%)</td><td>43/60 (71.67%)</td></tr>
+<tr><td>Angled</td><td>36</td><td>33/36 (91.67%)</td><td>36/36 (100.00%)</td><td>36/36 (100.00%)</td></tr>
+<tr><td>Irregular obstacles</td><td>12</td><td>8/12 (66.67%)</td><td>8/12 (66.67%)</td><td>9/12 (75.00%)</td></tr>
+<tr><td>Adapted TPCAP</td><td>20</td><td>9/20 (45.00%)</td><td>7/20 (35.00%)</td><td>10/20 (50.00%)</td></tr>
+<tr><td>Total</td><td>128</td><td>84/128 (65.63%)</td><td>89/128 (69.53%)</td><td>98/128 (76.56%)</td></tr>
+</tbody></table></div>
+<h2>Final outcome categories</h2>
+<p>These categories are mutually exclusive. A solver stop takes precedence over a collision found in its returned iterate. “Solver-reported infeasibility” is not a proof that the continuous parking task has no solution.</p>
+<div class="table-wrap"><table><thead><tr><th>Outcome</th><th>Node-only</th><th>Fixed interior</th><th>Adaptive</th></tr></thead><tbody>
+<tr><td>Accepted</td><td>84</td><td>89</td><td>98</td></tr>
+<tr><td>No HA seed</td><td>16</td><td>16</td><td>16</td></tr>
+<tr><td>Solver-reported infeasibility</td><td>3</td><td>20</td><td>11</td></tr>
+<tr><td>Iteration limit reached</td><td>1</td><td>0</td><td>1</td></tr>
+<tr><td>Worker / native-process failure</td><td>0</td><td>1</td><td>0</td></tr>
+<tr><td>Collision after a successful solve</td><td>24</td><td>2</td><td>2</td></tr>
+</tbody></table></div>
+<h2>Recovery subsets</h2>
+<p>Twenty-four node-only cases meet the solver and node-diagnostic conditions but have a between-node collision. Fifteen are accepted by the adaptive workflow, including nine also accepted by fixed interior constraints. These are cross-method comparisons.</p>
+<p>The 11 cases below instead start with a solver-successful, node-safe but colliding first round of the adaptive workflow itself, and subsequently pass all checks:</p>
+<div class="table-wrap"><table><thead><tr><th>Case</th><th>Accepted adaptive round</th></tr></thead><tbody>
+<tr><td><code>perpendicular_tight_x-8_y8.5</code></td><td>2</td></tr>
+<tr><td><code>perpendicular_wide_x-8_y8.5</code></td><td>3</td></tr>
+<tr><td><code>parallel_medium_x0_y7.5</code></td><td>2</td></tr>
+<tr><td><code>parallel_medium_x8_y7.5</code></td><td>5</td></tr>
+<tr><td><code>parallel_medium_x8_y8.5</code></td><td>5</td></tr>
+<tr><td><code>parallel_wide_x-4_y7.5</code></td><td>5</td></tr>
+<tr><td><code>parallel_wide_x8_y7.5</code></td><td>6</td></tr>
+<tr><td><code>parallel_wide_x8_y8.5</code></td><td>2</td></tr>
+<tr><td><code>diagonal_wide_a60_x-8_y8.5</code></td><td>2</td></tr>
+<tr><td><code>irregular_convex_hexagon_x-8_y8.5</code></td><td>2</td></tr>
+<tr><td><code>tpcap_case01_project_4.7x2</code></td><td>5</td></tr>
+</tbody></table></div>
+<p>Adaptive has up to six solves; the two baselines have one. The comparison measures workflow outcomes and does not isolate constraint-point selection from repeated solving.</p>
+<p>The <a href="docs/CASE_ATLAS_EN.html">case atlas</a> contains all 128 cases and their three-method statuses. Raw source records are <code>results/seeded/results.json</code>, <code>results/seeded/results.csv</code> and the per-case directories. The <a href="docs/HA_FAILURE_REPORT_EN.html">HA failure study</a> is a separate front-end experiment.</p></main></body></html>

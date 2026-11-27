@@ -1,0 +1,46 @@
+{
+  "description": "Documentation and plots generated from frozen records; no planning or solver runs.",
+  "author": "Yuwen Wang",
+  "scene_ids": [
+    "parallel_tight_x-8_y7.5",
+    "perpendicular_tight_x0_y8.5",
+    "diagonal_tight_a45_x-4_y7.5",
+    "irregular_convex_parallelogram_x8_y8.5",
+    "irregular_concave_L_x8_y8.5",
+    "tpcap_case01_project_4.7x2"
+  ],
+  "example_case": "tpcap_case01_project_4.7x2",
+  "example_rounds": [
+    1,
+    5
+  ],
+  "example_time_s": 12.9,
+  "curve_sample_count_per_round": 401,
+  "curve_interval_s": [
+    12.8,
+    13.2
+  ],
+  "backend_accepted": {
+    "node": 84,
+    "dense": 89,
+    "adaptive": 98
+  },
+  "source_archive_sha256": "667e9c242eeadd58c33b8e1273e67cd980a6c9ad8fdbe3b9c6f25ce9c5db939a",
+  "source_files_sha256": {
+    "outputs/parking_safe128_delivery_v2/results/seeded/parallel_tight_x-8_y7.5/scene.npz": "fba8560c2980ab48bf74cfbf14f4f2a5ff01781f4cb50eab0571196f755dbbe5",
+    "outputs/parking_safe128_delivery_v2/results/seeded/perpendicular_tight_x0_y8.5/scene.npz": "5afbf211b734d63ab66fe9936921542826b68f332d6dd7486c5ee18be5b8841b",
+    "outputs/parking_safe128_delivery_v2/results/seeded/diagonal_tight_a45_x-4_y7.5/scene.npz": "a9e5b2a6771c7f828c09f9d5f30cfbcdcf68ec6b65835564fe970a868735922e",
+    "outputs/parking_safe128_delivery_v2/results/seeded/irregular_convex_parallelogram_x8_y8.5/scene.npz": "4c3f4831f63b63727598960ad7ddcb85c9ac5cc0a28dd09d480b32d13785feab",
+    "outputs/parking_safe128_delivery_v2/results/seeded/irregular_concave_L_x8_y8.5/scene.npz": "2fbc4347a05382c3a90862ca214448c5293c8d7d705192e3eaece1385acde7c0",
+    "outputs/parking_safe128_delivery_v2/results/seeded/tpcap_case01_project_4.7x2/scene.npz": "b6417fef2da2c344d21f2d3e65ba9fb79ee1cae234897deda42d03db3bebab93",
+    "outputs/parking_safe128_delivery_v2/results/seeded/tpcap_case01_project_4.7x2/adaptive/round01.npz": "29d536159039d5840a534d766d20e15ce015b401e0caaa2f2f5172f6c9d64df3",
+    "outputs/parking_safe128_delivery_v2/results/seeded/tpcap_case01_project_4.7x2/adaptive/round01.json": "bd51a7c9f25f32b413a6c5fdc060f29ec94c8ff785b403f536e8406c73b94c37",
+    "outputs/parking_safe128_delivery_v2/results/seeded/tpcap_case01_project_4.7x2/adaptive/round05.npz": "4f59a5efb7b4725613fa738043d7ad4f732c7c3e57ba4bd39d10be82ade0c6a0",
+    "outputs/parking_safe128_delivery_v2/results/seeded/tpcap_case01_project_4.7x2/adaptive/round05.json": "849b8da388eaf1f6ad1749b3c534a0043abe4ab82ecb7ade588fca065616fd91",
+    "outputs/parking_safe128_english/CASE_ATLAS_EN.html": "9f657238cdc64baf9e0e4ec94a413d67847773bbe7707b82b78ba7d6f802ed8e",
+    "outputs/parking_safe128_english/HA_FAILURE_REPORT_EN.html": "2d67ee9e5f8d60e507976d1832a56567ee63431ee354e5093f662b7f58eda657",
+    "outputs/parking_safe128_english/HA_FAILURE_REPORT_EN.md": "ffde1bab2d6d59e40f4e0ed342f7c3724ee00ab307bdde185c6faa3f82cc4661",
+    "outputs/parking_safe128_english/CASE_RESULTS_EN.csv": "e793dc127e2bae9d4e467143a5697283676da75c33e6354798cc72ae8495fdf8",
+    "outputs/parking_safe128_delivery_v2/results/seeded/results.json": "06be079c0b0d2b9095fdc02cd32b42cebf78f88ea2aad97984ef231ab4c143f4"
+  }
+}

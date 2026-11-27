@@ -1,0 +1,50 @@
+{
+  "case": "perpendicular_tight_x-8_y8.5",
+  "mode": "global control rollout",
+  "panels": [
+    "full trajectory",
+    "fixed local risk region",
+    "clearance"
+  ],
+  "rounds": {
+    "node": 1,
+    "dense": 1,
+    "adaptive": 2
+  },
+  "accepted": {
+    "node": false,
+    "dense": true,
+    "adaptive": true
+  },
+  "physical_duration_s": 20.0,
+  "playback_speed": 2.0,
+  "frame_count": 126,
+  "frame_size": [
+    1400,
+    850
+  ],
+  "bytes": 650965,
+  "source_sha256": {
+    "results/seeded/perpendicular_tight_x-8_y8.5/ha.json": "4e6b000d4a5b6722da2db0da997fac983278f2a99f170dc40f23020730fa3624",
+    "results/seeded/perpendicular_tight_x-8_y8.5/input.npz": "32f45bc0c4633e49836deb18494521e2ffe67336b7aac6db0a2c0631314826e2",
+    "results/seeded/perpendicular_tight_x-8_y8.5/process.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/seeded/perpendicular_tight_x-8_y8.5/scene.npz": "3143fdc20477cf1174952752f363c5a99534b4f7ea46fa81638494cc3cb6f30e",
+    "results/seeded/perpendicular_tight_x-8_y8.5/adaptive/process.log": "449ba69358b1e8009e32fac074fd6c400e2b8567428648dce49a67bdda6e162e",
+    "results/seeded/perpendicular_tight_x-8_y8.5/adaptive/progress.json": "48ca4352cc2fe664d82740c9fb67c43131762c73376e3c9c0eefd64caee8687b",
+    "results/seeded/perpendicular_tight_x-8_y8.5/adaptive/result.json": "8e88eaa452be44c00c471de6d13e571cdf0a5755a25c6cc25878f4a6556d3da2",
+    "results/seeded/perpendicular_tight_x-8_y8.5/adaptive/round01.json": "138ff4e9c97ba66a310935d317ebc8630f08bf9b95a7b3b9e7a2855ce2199e26",
+    "results/seeded/perpendicular_tight_x-8_y8.5/adaptive/round01.npz": "cb7799fae2389701af4515f2439bd109cbbc3361753abe9b186e11078a9449b1",
+    "results/seeded/perpendicular_tight_x-8_y8.5/adaptive/round02.json": "1ba8169b642eaffb2098a8815af4d1ff1aa05b874e26403c6f7e334f979c0595",
+    "results/seeded/perpendicular_tight_x-8_y8.5/adaptive/round02.npz": "f073faafd5ac6fa53250b5b4a4f2f91dda6835398fed7a43858783eda3fd99c6",
+    "results/seeded/perpendicular_tight_x-8_y8.5/dense/process.log": "7734b3728fc79652d47da1239696c6402ba23f14625675d4a404ef14bab3c392",
+    "results/seeded/perpendicular_tight_x-8_y8.5/dense/progress.json": "0cccd6c1631c378e7f9a17d0029b42d01cdfb45819821230737fa4e7ca4cc214",
+    "results/seeded/perpendicular_tight_x-8_y8.5/dense/result.json": "94b8e2bf899ed566deae71329961fb2f32fae1808c9a32666a24db0d63aad6af",
+    "results/seeded/perpendicular_tight_x-8_y8.5/dense/round01.json": "7f50a2611521caed41d0d404d87abdc44c34296376008967f416793e7d552723",
+    "results/seeded/perpendicular_tight_x-8_y8.5/dense/round01.npz": "4322e205c5871b3a909bc77bd9d19044fe13026cf854c550484a22dfee5e4442",
+    "results/seeded/perpendicular_tight_x-8_y8.5/node/process.log": "f8aed9da60dd4102204cd75b46baabae22a901d51556fde2331526e899fea77d",
+    "results/seeded/perpendicular_tight_x-8_y8.5/node/progress.json": "2cbb6ee223cbcf9901331b97c56112b2e5731ad38219cb40ade59374ae8f05f3",
+    "results/seeded/perpendicular_tight_x-8_y8.5/node/result.json": "dd1b7700dab6bf05310d1d2e1f3e1f7576c007481072897c4a0f5be84de32c68",
+    "results/seeded/perpendicular_tight_x-8_y8.5/node/round01.json": "66816765fc9d6be92b649419dbf88bd9bab4858a1ceb659ddaf1561f65949d31",
+    "results/seeded/perpendicular_tight_x-8_y8.5/node/round01.npz": "b3ebfd81aaee2d0d473b9b8af55c0eab10892106f191534b2487098f66c31fd9"
+  }
+}

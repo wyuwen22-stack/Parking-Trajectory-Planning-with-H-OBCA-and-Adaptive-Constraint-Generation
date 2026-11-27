@@ -1,0 +1,82 @@
+{
+  "version": "whole_trajectory_stop_v2",
+  "planner": {
+    "inflation_m": 1.0,
+    "inflation_cells": 5,
+    "grid_resolution_m": 0.2
+  },
+  "formal_manifest": {
+    "n": 128,
+    "families": {
+      "standard": 60,
+      "diagonal": 36,
+      "irregular": 12,
+      "tpcap": 20
+    },
+    "regression_in_denominator": false
+  },
+  "vehicle": {
+    "ego": [
+      3.7,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "L": 2.7,
+    "Rmin": 3.95
+  },
+  "motion": "delta,a zero-order hold; v(t)=v0+a*t; signed distance s=v0*t+a*t*t/2; curvature=tan(delta)/L; analytic constant-curvature arc using stable sinc",
+  "gear": "speed may cross zero; split verification intervals at zero speed, accumulate integral abs(v). No gear delay or continuous steering actuator claim.",
+  "Ts": 0.4,
+  "v_max": 3.0,
+  "a_max": 1.0,
+  "ddelta_max": 0.6,
+  "node_clearance": 0.05,
+  "physical_clearance": 0.0,
+  "physical_comparison": "strict >",
+  "node_constraint_buffer_m": 0.001,
+  "interior_constraint_clearance_m": 0.05,
+  "interior_policy": "selected node and interior optimization poses require 0.05+0.001m; acceptance is strictly positive whole-trajectory clearance",
+  "objective": "historical parking once, weights unchanged; no distance reward",
+  "certificate": "conditional numerical, NOT formal floating-point proof or real-world safety certificate",
+  "numerical_allowance": "1e-7m floor plus 64*float64eps*coordinate scale; engineering guard, NOT a proven floating-point error bound; no physical uncertainty included",
+  "dynamics_residual_max": 2e-06,
+  "global_rollout_position_drift_max_m": 0.0001,
+  "global_rollout_heading_drift_max_rad": 1e-05,
+  "start_tol": 1e-06,
+  "goal_xy_component_tol": 0.05,
+  "goal_heading_tol": 0.05,
+  "goal_speed_tol": 1e-06,
+  "certificate_max_depth": 12,
+  "certificate_max_queries": 16000,
+  "adaptive_max_rounds": 6,
+  "adaptive_max_new_samples_per_round": 24,
+  "solver_max_cpu_seconds_per_round": null,
+  "case_hard_timeout_seconds": null,
+  "dense_reference_fractions": [
+    0.25,
+    0.5,
+    0.75
+  ],
+  "staging": "Rmin=3.95 m in search, optimization and validation; seeded source reuses the frozen 128-case HA experiment; fresh source explicitly reruns search",
+  "output_policy": "solver_status, stop_reason, validation_status and failure_items are independent; no infeasibility proof claim",
+  "ha_search_seconds": null,
+  "ha_hard_timeout_seconds": null,
+  "case_parallelism": 3,
+  "experiment_variants": [
+    "node",
+    "dense",
+    "adaptive"
+  ],
+  "warmstart_policy": "same saved/fresh geometric HA per case, original horizon policy Ts=.4 vnom1 nmin40 nmax160, clipped controls and endpoint v=0; residuals explicit; no feasible-start guarantee",
+  "backend_workers": 3,
+  "fresh_workers": 1,
+  "acceptance_version": "whole_body_arc_zero_terminal_v2",
+  "terminal_speed_target": 0.0,
+  "terminal_xy_inset_m": 0.0002,
+  "terminal_heading_inset_rad": 2e-05,
+  "control_numeric_tol": 1e-06,
+  "terminal_policy": "optimizer v_N=0; global control rollout |v_N|<=1e-6 m/s; xy per component <=0.05m, wrapped heading <=0.05rad",
+  "time_policy": "No project time caps; omit IPOPT time options (library defaults retained); expansion/iteration/refinement/verification caps retained",
+  "node_clearance_role": "optimization constraint and historical diagnostic only; not an acceptance gate"
+}

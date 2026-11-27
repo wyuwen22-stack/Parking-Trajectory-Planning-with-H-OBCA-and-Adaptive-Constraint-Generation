@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: If you use this software, please cite this repository and its method references.
+type: software
+license: MIT
+license-url: LICENSE
+title: Parking Trajectory Planning with H-OBCA and Adaptive Constraint Generation
+authors:
+  - family-names: Wang
+    given-names: Yuwen
+    affiliation: The University of Hong Kong
+abstract: >
+  A parking planning study using Hybrid A* warm starts, H-OBCA-style
+  optimization and independent interval collision verification. The frozen
+  128-case backend benchmark compares node-only, fixed-interior and adaptive
+  constraint workflows. A separate study diagnoses HA search failures.
+keywords:
+  - automated parking
+  - Hybrid A*
+  - optimization-based collision avoidance
+  - trajectory verification

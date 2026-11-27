@@ -1,0 +1,25 @@
+id,family,original_failure,unlimited_forward_accepted,reverse_search_status,expanded,search_elapsed_s,raw_arc_state,legacy_export_pass,primary_accepted,export_audit_pass,accepted_after_export,failure_items
+perpendicular_medium_x8_y7.5,Perpendicular parking,RETURNED_MARGIN_FAILED,False,PATH,31,0.07660650000002533,PASS,False,False,True,True,returned_samples
+perpendicular_medium_x8_y8.5,Perpendicular parking,RETURNED_MARGIN_FAILED,False,PATH,31,0.08074329999999463,PASS,False,False,True,True,returned_samples
+perpendicular_wide_x8_y7.5,Perpendicular parking,RETURNED_MARGIN_FAILED,False,PATH,26,0.08179919999997765,PASS,True,True,,True,
+perpendicular_wide_x8_y8.5,Perpendicular parking,RETURNED_MARGIN_FAILED,False,PATH,26,0.07891109999991386,PASS,True,True,,True,
+parallel_tight_x-8_y7.5,Parallel parking,NO_PATH,False,PATH,1461,6.90987569999993,PASS,True,True,,True,
+parallel_tight_x-8_y8.5,Parallel parking,NO_PATH,False,PATH,1461,6.666824499999848,PASS,True,True,,True,
+parallel_tight_x-4_y7.5,Parallel parking,NO_PATH,False,PATH,1132,4.901640699999916,PASS,True,True,,True,
+parallel_tight_x-4_y8.5,Parallel parking,NO_PATH,False,PATH,1206,5.584840199999917,PASS,True,True,,True,
+parallel_tight_x0_y7.5,Parallel parking,NO_PATH,False,PATH,61,0.32382619999998496,PASS,True,True,,True,
+parallel_tight_x4_y7.5,Parallel parking,NO_PATH,False,PATH,56,0.2863419000000249,PASS,True,True,,True,
+parallel_tight_x4_y8.5,Parallel parking,NO_PATH,False,PATH,56,0.2780408000000989,PASS,True,True,,True,
+parallel_tight_x8_y7.5,Parallel parking,NO_PATH,False,PATH,56,0.3072129000001951,PASS,True,True,,True,
+parallel_tight_x8_y8.5,Parallel parking,NO_PATH,False,PATH,56,0.31905379999989236,PASS,True,True,,True,
+diagonal_tight_a45_x-4_y7.5,Angled parking,RETURNED_MARGIN_FAILED,False,PATH,1736,16.479075800000146,PASS,True,True,,True,
+diagonal_wide_a60_x8_y8.5,Angled parking,RETURNED_MARGIN_FAILED,False,PATH,21,0.29583389999993415,PASS,True,True,,True,
+irregular_convex_parallelogram_x8_y8.5,Irregular obstacles,RETURNED_MARGIN_FAILED,False,PATH,31,0.24395320000007814,PASS,False,False,True,True,returned_samples
+irregular_concave_L_x8_y8.5,Irregular obstacles,RETURNED_MARGIN_FAILED,False,PATH,31,0.2279178999999658,PASS,False,False,True,True,returned_samples
+irregular_concave_notch_x8_y8.5,Irregular obstacles,NO_PATH,False,QUEUE_EXHAUSTED,95841,476.2388143999999,NOT_RUN,False,False,,False,no_path_returned
+tpcap_case02_project_4.7x2,Adapted TPCAP,NO_PATH,True,PATH,1301,23.917148400000315,PASS,True,True,,True,
+tpcap_case03_project_4.7x2,Adapted TPCAP,NO_PATH,True,PATH,836,9.273349999999937,PASS,True,True,,True,
+tpcap_case07_project_4.7x2,Adapted TPCAP,NO_PATH,False,QUEUE_EXHAUSTED,4,0.37800210000000334,NOT_RUN,False,False,,False,no_path_returned
+tpcap_case09_project_4.7x2,Adapted TPCAP,NO_PATH,True,PATH,2261,32.774782899999764,PASS,True,True,,True,
+tpcap_case19_project_4.7x2,Adapted TPCAP,NO_PATH,True,PATH,15901,253.3272052000002,PASS,True,True,,True,
+tpcap_case20_project_4.7x2,Adapted TPCAP,NO_PATH,False,PATH,5302,164.53192799999988,PASS,False,False,True,True,returned_samples

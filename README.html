@@ -1,0 +1,126 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Parking Trajectory Planning with H-OBCA and Adaptive Constraint Generation</title><style>body{margin:0;background:#f3f5f7;color:#243447;font:16px/1.7 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}main{max-width:960px;margin:28px auto;background:white;padding:42px 48px;border:1px solid #e1e6ec;border-radius:10px}h1{font-size:32px;line-height:1.23;color:#122c44;margin-top:0}h2{font-size:23px;margin-top:38px;border-bottom:1px solid #e5eaf0;padding-bottom:8px}h3{font-size:19px}a{color:#156ba1;text-underline-offset:3px}img{display:block;width:100%;height:auto;margin:20px auto}code{font:0.88em/1.5 Consolas,monospace;background:#eff3f7;padding:2px 5px;border-radius:3px}pre{background:#152c40;color:#e9f0f6;padding:18px;overflow:auto;border-radius:6px}pre code{background:none;color:inherit;padding:0}.table-wrap{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:14px;line-height:1.5}th,td{border:1px solid #dce3ea;padding:10px 12px;text-align:left;vertical-align:top}th{background:#edf3f8;color:#183e5c}tr:nth-child(even){background:#f8fafc}li{margin:8px 0}nav{font-size:14px;margin-bottom:22px}@media(max-width:700px){main{margin:0;border:0;border-radius:0;padding:24px 18px}h1{font-size:27px}h2{font-size:21px}table{min-width:550px}}@media print{body{background:white}main{margin:0;max-width:none;border:0;padding:0}h2{break-after:avoid}img,table,pre{break-inside:avoid}a{color:inherit}nav{display:none}}</style></head><body><main><nav><a href="README.md">GitHub Markdown source</a> · <a href="docs/CASE_ATLAS_EN.html">Case atlas</a></nav><h1>Parking Trajectory Planning with H-OBCA and Adaptive Constraint Generation</h1>
+<p><strong>Yuwen Wang</strong>   MSc student in Mechanical Engineering, The University of Hong Kong</p>
+<p>Collision constraints at discrete trajectory nodes can miss an overlap between the vehicle body and an obstacle during the intervening motion. This project combines a Hybrid A&#42; geometric warm start, H-OBCA-style trajectory optimization and an independent interval verifier. It compares node-only constraints, fixed interior constraints and adaptive constraint generation on a frozen 128-case parking benchmark.</p>
+<p>The repository provides a consistent vehicle and motion model, recorded optimization rounds, independent trajectory checks, and an interactive viewer for inspecting successes and failures. Adaptive refinement adds collision constraints to the existing control intervals; it does not add state nodes or control degrees of freedom.</p>
+<p><a href="RESULTS.html">Results</a> · <a href="docs/CASE_ATLAS_EN.html">128-case atlas</a> · <a href="docs/HA_FAILURE_REPORT_EN.html">HA failure study</a> · <a href="docs/IMPLEMENTATION_NOTES.html">Implementation notes</a></p>
+<h2>Full parking motion</h2>
+<p><img src="docs/figures/parking_motion_three_panel.gif" alt="Animated three-panel comparison: full parking trajectories, a local risk-region zoom and body-obstacle clearance from start to finish." loading="lazy"></p>
+<p>Case <code>perpendicular_tight_x-8_y8.5</code>, shown at <strong>2× speed</strong> using the saved final rounds: node-only R1, fixed-interior R1 and adaptive R2. The three panels follow the result viewer&#x27;s layout. Vehicle bodies and the clearance cursor advance together from the true initial state to the end of the control sequence; the local zoom stays on the node-method risk region. The node-only trajectory is displayed for diagnosis and is <strong>not accepted</strong> because of an intra-segment collision. Fixed-interior and adaptive trajectories pass the recorded acceptance checks. The animation replays existing controls without replanning; the displayed clearance samples are not a replacement for interval verification.</p>
+<h2>From a missed collision to an accepted trajectory</h2>
+<p>The example below compares adaptive rounds 1 and 5 for <code>tpcap_case01_project_4.7x2</code>. Both use the same control grid. Round 1 satisfies the node clearance diagnostic but overlaps an obstacle between nodes. Additional interior constraints change the optimized trajectory, and round 5 passes all acceptance checks.</p>
+<p><img src="docs/figures/adaptive_repair.png" alt="Adaptive rounds 1 and 5 at the same risk time, with clearance curves over the same control interval." loading="lazy"></p>
+<p>The body snapshots use the same time, <strong>12.90 s</strong>, and the curves show the same interval, <strong>12.80–13.20 s</strong>. The round-1 collision witness has signed clearance <strong>−0.029800 m</strong>; it is a reported overlap, not necessarily the deepest overlap. The final trajectory has a recorded conservative whole-trajectory clearance lower bound of <strong>0.002042 m</strong>. The plotted curves are finite samples for illustration; acceptance comes from the saved interval verification and the other feasibility checks.</p>
+<h2>Benchmark results</h2>
+<p>The three methods share the same HA seed, vehicle model, horizon policy and acceptance conditions for each case. The frozen backend experiment contains 112 cases with an HA seed and 16 without one. All 128 cases remain in the main denominator.</p>
+<div class="table-wrap"><table><thead><tr><th>Method</th><th>Collision constraints</th><th>Optimization rounds</th><th>Accepted / 128</th><th>Accepted / 112 seeded cases</th></tr></thead><tbody>
+<tr><td>Node-only (<code>node</code>)</td><td>Discrete nodes</td><td>1</td><td>84 (65.63%)</td><td>84 (75.00%)</td></tr>
+<tr><td>Fixed interior (<code>dense</code>)</td><td>Nodes and 1/4, 1/2, 3/4 of each interval</td><td>1</td><td>89 (69.53%)</td><td>89 (79.46%)</td></tr>
+<tr><td>Adaptive (<code>adaptive</code>)</td><td>Nodes and initial midpoints; further points selected by the verifier</td><td>Up to 6</td><td>98 (76.56%)</td><td>98 (87.50%)</td></tr>
+</tbody></table></div>
+<p>Adaptive acceptance is <strong>10.94 percentage points higher than node-only</strong> and <strong>7.03 points higher than fixed interior constraints</strong>. These are comparisons of the complete workflows: the experiment does not isolate the effect of point selection from the additional solves and intermediate warm starts.</p>
+<p>Of the 24 node-only trajectories with a passing node diagnostic but an intra-segment collision, 15 cases are accepted by the adaptive method; nine of those are also accepted by the fixed-interior method. Separately, 11 cases are accepted after the adaptive method&#x27;s own first round exhibits this failure pattern. The two subsets have different definitions. Family counts, failure categories and per-case evidence are in <a href="RESULTS.html">RESULTS.md</a>.</p>
+<h2>View the saved results</h2>
+<p>Open the repository root in VS Code and select a Python environment. The recorded environment is CPython 3.13.13 on Windows 11. The commands below use a local virtual environment without requiring shell activation.</p>
+<p><strong>Windows PowerShell — from the repository root:</strong></p>
+<pre><code>py -3.13 -m venv .venv
+.\.venv\Scripts\python.exe -m pip install -r requirements-viewer.txt
+.\.venv\Scripts\python.exe view_results.py</code></pre>
+<p><strong>Linux or macOS — with Python 3.13 installed:</strong></p>
+<pre><code>python3.13 -m venv .venv
+.venv/bin/python -m pip install -r requirements-viewer.txt
+.venv/bin/python view_results.py</code></pre>
+<p>The viewer requires NumPy, Matplotlib and Tkinter. In VS Code, select the newly created environment and run <code>view_results.py</code>. It opens existing results, lets you choose a case and adaptive round, compares the three methods, and supports motion playback and figure export. Opening the viewer never starts planning. Cross-platform installation has not been independently validated.</p>
+<p>After selecting or activating the intended environment, these commands list cases or export a figure without opening a window:</p>
+<pre><code>python view_results.py --list
+python view_results.py --case tpcap_case01_project_4.7x2 --round 1 --export exports/round1.png</code></pre>
+<p>The default display replays the complete control sequence from the true initial state. The optional <code>saved</code> mode resets each local arc at its saved node and is intended for diagnosing propagation differences.</p>
+<h2>Scenes</h2>
+<p>The benchmark has <strong>128 cases across 39 distinct obstacle layouts</strong>. Several cases share a layout and vary the initial pose. The six panels below show representative inputs, with obstacles and the vehicle bodies at the start and goal; they do not show planned trajectories.</p>
+<p><img src="docs/figures/scene_overview.png" alt="Six representative parking layouts: parallel, perpendicular, angled, two irregular-obstacle examples and an adapted TPCAP case." loading="lazy"></p>
+<p>Panels use the configured map bounds and individual axis scales. Vehicle geometry and obstacle coordinates come directly from the saved scenes.</p>
+<div class="table-wrap"><table><thead><tr><th>Scene family</th><th>Cases</th><th>Variations represented</th></tr></thead><tbody>
+<tr><td>Standard parallel and perpendicular parking</td><td>60</td><td>Slot dimensions and initial poses; 30 cases of each parking type</td></tr>
+<tr><td>Angled parking</td><td>36</td><td>Slot angle, width and initial pose</td></tr>
+<tr><td>Irregular obstacles</td><td>12</td><td>Convex and concave polygon arrangements</td></tr>
+<tr><td>Adapted TPCAP</td><td>20</td><td>Benchmark layouts with the project&#x27;s vehicle model</td></tr>
+<tr><td>Total</td><td>128</td><td>39 layouts after obstacle-coordinate deduplication</td></tr>
+</tbody></table></div>
+<p>This is a development and regression suite, with no independent held-out layout set. TPCAP cases use the project&#x27;s vehicle parameters and are not directly comparable with the competition&#x27;s scores. The <a href="docs/CASE_ATLAS_EN.html">case atlas</a> preserves the complete three-method result snapshot and its filters.</p>
+<h2>Method and acceptance</h2>
+<p><img src="docs/figures/method_pipeline.png" alt="Hybrid A-star warm start, three constraint policies, independent verification and complete acceptance checks, with an adaptive refinement loop." loading="lazy"></p>
+<p>Hybrid A&#42; supplies a geometric path. The warm-start stage maps it onto a fixed control grid, and the optimizer solves one of the three constraint policies. The independent verifier checks the vehicle body&#x27;s motion between nodes using distance and motion bounds. For the adaptive method, eligible interior locations flagged by collision or unresolved checks are added as constraints before the next solve, subject to the round and point limits.</p>
+<p><strong>A result is accepted only when all checks pass:</strong> an allowed solver-success status; initial-state and dynamics consistency; control limits; terminal pose and speed; the existing reference-point boundary check; and a strictly positive whole-trajectory obstacle-clearance result. Geometric <code>PASS</code> alone is insufficient. The boundary check applies to the reference point and is not a full-body region-containment guarantee.</p>
+<h2>Parameters</h2>
+<p>The authoritative configuration is <code>contract.json</code>. The model is a low-speed kinematic bicycle with constant steering and acceleration on each interval. Speed may cross zero.</p>
+<div class="table-wrap"><table><thead><tr><th>Vehicle and motion parameter</th><th>Value</th></tr></thead><tbody>
+<tr><td>Vehicle body</td><td>4.7 m × 2.0 m</td></tr>
+<tr><td>Wheelbase</td><td>2.7 m</td></tr>
+<tr><td>Rear-axle reference to body edges</td><td>3.7 m forward; 1.0 m rearward; 1.0 m to either side</td></tr>
+<tr><td>Minimum turning radius</td><td>3.95 m</td></tr>
+<tr><td>Maximum steering angle</td><td><code>atan(2.7 / 3.95)</code> ≈ 0.5996 rad (34.35°)</td></tr>
+<tr><td>Speed and acceleration bounds</td><td>±3.0 m/s; ±1.0 m/s²</td></tr>
+<tr><td>Steering change between controls</td><td>At most <code>0.6 × Ts</code> rad = 0.24 rad per step</td></tr>
+<tr><td>Physical time step <code>Ts</code></td><td>0.4 s</td></tr>
+<tr><td>Horizon policy</td><td>Seed-length based; configured interval count 40–160; observed 40–105 in the frozen run</td></tr>
+<tr><td>Observed physical horizon</td><td>16–42 s</td></tr>
+</tbody></table></div>
+<div class="table-wrap"><table><thead><tr><th>Constraints and acceptance parameter</th><th>Value / role</th></tr></thead><tbody>
+<tr><td>Clearance at constrained optimization poses</td><td>0.05 m hard margin + 0.001 m solver buffer</td></tr>
+<tr><td>HA obstacle-clearance policy</td><td>0.05 m</td></tr>
+<tr><td>Whole-trajectory obstacle acceptance</td><td>Strictly positive clearance; contact is not accepted</td></tr>
+<tr><td>Node 0.05 m check</td><td>Recorded diagnostic; not a separate final acceptance gate</td></tr>
+<tr><td>Terminal speed</td><td>Optimizer target <code>v_N = 0</code>; replay tolerance 10⁻⁶ m/s</td></tr>
+<tr><td>Terminal pose tolerances</td><td>0.05 m per position component; 0.05 rad heading</td></tr>
+<tr><td>Terminal constraint inset</td><td>0.0002 m in position; 0.00002 rad in heading</td></tr>
+<tr><td>Interval-verifier limits</td><td>Depth 12; 16,000 distance queries</td></tr>
+<tr><td>Geometry numerical allowance</td><td><code>max(10⁻⁷ m, 64 × machine epsilon × coordinate scale)</code></td></tr>
+<tr><td>Dynamics residual / initial-state tolerance</td><td>2 × 10⁻⁶ / 10⁻⁶, applied to the state components</td></tr>
+<tr><td>Global replay drift limits</td><td>10⁻⁴ m position; 10⁻⁵ rad heading</td></tr>
+<tr><td>Control-limit numerical tolerance</td><td>10⁻⁶ in the corresponding control units</td></tr>
+</tbody></table></div>
+<div class="table-wrap"><table><thead><tr><th>Search and optimization parameter</th><th>Value</th></tr></thead><tbody>
+<tr><td>HA position / heading bins</td><td>0.2 m / 5° in the backend benchmark&#x27;s source search</td></tr>
+<tr><td>HA motion primitives</td><td>0.3 m; 11 curvature choices</td></tr>
+<tr><td>Heuristic inflation</td><td>1.0 m = 5 grid cells</td></tr>
+<tr><td>HA expansion cap</td><td>200,000 per search</td></tr>
+<tr><td>IPOPT iteration cap</td><td>1,500 per solve</td></tr>
+<tr><td>IPOPT convergence / constraint tolerances</td><td><code>tol = 10⁻⁸</code>; <code>constr_viol_tol = 10⁻⁸</code>; <code>acceptable_tol = 10⁻⁶</code>; bound relaxation disabled</td></tr>
+<tr><td>Adaptive limits</td><td>6 total solves; at most 24 new interior points per refinement</td></tr>
+<tr><td>Current project time caps</td><td>None; IPOPT time options omitted, library defaults retained</td></tr>
+<tr><td>Historical HA seed time limit</td><td>90 s per case</td></tr>
+</tbody></table></div>
+<h2>Reproduce the experiments</h2>
+<p>Install the full dependencies in the selected environment to run planning or tests:</p>
+<pre><code>python -m pip install -r requirements.txt
+python -m pytest -q -s</code></pre>
+<p>On Windows, <code>-s</code> disables pytest output capture, which can interfere with CasADi/IPOPT initialization.</p>
+<p>Pinned package versions are recorded in <code>requirements.lock.txt</code>. Tests cover analytic propagation, independent ODE comparisons, geometric bounds, terminal conditions, failure classification and viewer isolation; they do not rerun the entire benchmark.</p>
+<pre><code># Repeat the backend comparison using the bundled HA paths.
+python run_planning.py --all --source seeded --workers 6 --output results_other
+
+# Run one case with a new HA search.
+python run_planning.py --case perpendicular_wide_x0_y8.5 --source fresh --output results_single
+
+# Rerun both the front end and all three backends on all 128 cases.
+python run_planning.py --all --source fresh --workers 3 --output results_fresh</code></pre>
+<p>Use a new output directory when code or configuration changes. Existing results are skipped. Default data paths are relative to the entry script; user-supplied relative paths are resolved from the terminal&#x27;s current directory.</p>
+<p>The frozen backend results use <code>inputs/ha_r395</code>: 112 paths returned by a historical 90 s search, including eight that failed its sampled 5 cm check. The optimizer can receive such geometrically imperfect seeds. The 16 missing paths remain failures in the overall denominator. A <code>fresh</code> run is a separate experiment under the current configuration.</p>
+<h2>Related work and research scope</h2>
+<p>The planning structure follows Hybrid A&#42; and H-OBCA, while obstacle separation uses OBCA&#x27;s dual formulation [1–3]. Adaptive constraint generation is related to semi-infinite trajectory optimization [4]. Continuous collision formulations and conservative subdivision provide other ways to address motion between nodes [5–6]. This repository&#x27;s contribution is the implementation, independent verification and reproducible comparison of the three constraint workflows under a shared model.</p>
+<p>The interval result is a conditional numerical check under that model. A certified lower bound is conservative and differs from a sampled minimum or a physical measurement. The model excludes perception and localization error, steering-actuator dynamics, gear-shift delay and tracking error. The fixed grid and lack of an independent test set limit conclusions about harder or unseen layouts.</p>
+<p>The separate <a href="docs/HA_FAILURE_REPORT_EN.html">HA failure study</a> examines 24 front-end failures and reports 22 recoveries after an export correction. Its combined historical ledger of 126/128 is neither a full-corpus interval certificate nor a backend success rate. The node, fixed and adaptive backend scores remain 84, 89 and 98. Known solver/process issues and historical fingerprint details are documented in <a href="docs/IMPLEMENTATION_NOTES.html">Implementation notes</a>.</p>
+<h2>Repository map</h2>
+<div class="table-wrap"><table><thead><tr><th>Path</th><th>Purpose</th></tr></thead><tbody>
+<tr><td><code>view_results.py</code></td><td>Read-only viewer and figure export</td></tr>
+<tr><td><code>run_planning.py</code></td><td>Explicit planning entry</td></tr>
+<tr><td><code>python_scripts/safe_parking/</code></td><td>Optimization, validation, refinement and viewing</td></tr>
+<tr><td><code>python_scripts/traj_py/</code></td><td>HA search, Reeds–Shepp geometry and warm-start construction</td></tr>
+<tr><td><code>inputs/</code></td><td>Frozen scenes and HA seeds</td></tr>
+<tr><td><code>results/seeded/</code></td><td>Three-method results and individual adaptive rounds</td></tr>
+<tr><td><code>docs/</code></td><td>Case atlas, HA failure study, figures and implementation notes</td></tr>
+<tr><td><code>tests/</code></td><td>Unit and contract tests</td></tr>
+</tbody></table></div>
+<h2>Attribution and references</h2>
+<p>Author: <strong>Yuwen Wang</strong>, MSc student in Mechanical Engineering, The University of Hong Kong. Citation metadata are provided in <a href="CITATION.cff">CITATION.cff</a>. English documentation and packaging were prepared with AI assistance; the reported results come from the saved experimental records.</p>
+<p>The project-code license status is recorded in <a href="LICENSE">LICENSE</a>. Third-party code and benchmark materials retain their own terms; see <a href="THIRD_PARTY_NOTICES.md">THIRD_PARTY_NOTICES.md</a>.</p>
+<ol><li>Dolgov et al. <em>Path planning for autonomous vehicles in unknown semi-structured environments</em>. IJRR, 2010. <a href="https://doi.org/10.1177/0278364909359210">DOI</a></li><li>Zhang, Liniger and Borrelli. <em>Optimization-based collision avoidance</em>. TCST, 2021. <a href="https://doi.org/10.1109/TCST.2019.2949540">DOI</a></li><li>Zhang, Liniger, Sakai and Borrelli. <em>Autonomous parking using optimization-based collision avoidance</em>. CDC, 2018. <a href="https://doi.org/10.1109/CDC.2018.8619433">DOI</a></li><li>Hauser. <em>Semi-infinite programming for trajectory optimization with non-convex obstacles</em>. IJRR, 2021. <a href="https://doi.org/10.1177/0278364920983353">DOI</a></li><li>Guthrie. <em>A differentiable signed distance representation for continuous collision avoidance in optimization-based motion planning</em>. CDC, 2022. <a href="https://doi.org/10.1109/CDC51059.2022.9992439">DOI</a></li><li>Zhang et al. <em>Provably feasible semi-infinite program under collision constraints via subdivision</em>. T-RO, 2024. <a href="https://doi.org/10.1109/TRO.2024.3391649">DOI</a></li><li>Li et al. <em>Online competition of trajectory planning for automated parking: Benchmarks, achievements, learned lessons, and future perspectives</em>. T-IV, 2023. <a href="https://doi.org/10.1109/TIV.2022.3228963">DOI</a></li></ol></main></body></html>
